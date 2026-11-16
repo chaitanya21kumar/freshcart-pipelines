@@ -1,0 +1,47 @@
+[
+  {
+    "max_depth": 1,
+    "test_accuracy": 0.633,
+    "exit_code": 1,
+    "accuracy_gate_failed": true,
+    "predictions_created": false,
+    "metrics_created": false,
+    "elapsed_seconds": 22.79
+  },
+  {
+    "max_depth": 2,
+    "test_accuracy": 0.967,
+    "exit_code": 0,
+    "accuracy_gate_failed": false,
+    "predictions_created": true,
+    "metrics_created": true,
+    "elapsed_seconds": 3.13
+  },
+  {
+    "max_depth": 3,
+    "test_accuracy": 1.0,
+    "exit_code": 0,
+    "accuracy_gate_failed": false,
+    "predictions_created": true,
+    "metrics_created": true,
+    "elapsed_seconds": 2.75
+  },
+  {
+    "max_depth": 4,
+    "test_accuracy": 1.0,
+    "exit_code": 0,
+    "accuracy_gate_failed": false,
+    "predictions_created": true,
+    "metrics_created": true,
+    "elapsed_seconds": 2.78
+  },
+  {
+    "max_depth": 5,
+    "test_accuracy": 1.0,
+    "exit_code": 0,
+    "accuracy_gate_failed": false,
+    "predictions_created": true,
+    "metrics_created": true,
+    "elapsed_seconds": 2.8
+  }
+]

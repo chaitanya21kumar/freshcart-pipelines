@@ -1,0 +1,14 @@
+{"at": "2026-11-16T10:41:33.218894+00:00", "driver": "Priya", "event": "READY", "exclusive": true, "pattern": "bangalore.indiranagar.*", "queue": "amq.gen-RDm0QulpT5WzUFk2gsdd8g"}
+{"at": "2026-11-16T10:41:33.369333+00:00", "driver": "Priya", "event": "PROCESSED", "id": "D1-2", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:33.369439+00:00", "driver": "Priya", "event": "ACK", "id": "D1-2", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:41:39.376076+00:00", "driver": "Priya", "event": "PROCESSED", "id": "R-004-fca3a2f1", "routing_key": "bangalore.indiranagar.food", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:39.376449+00:00", "driver": "Priya", "event": "ACK", "id": "R-004-fca3a2f1", "routing_key": "bangalore.indiranagar.food"}
+{"at": "2026-11-16T10:41:43.375456+00:00", "driver": "Priya", "event": "PROCESSED", "id": "R-006-530324ea", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:43.375760+00:00", "driver": "Priya", "event": "ACK", "id": "R-006-530324ea", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:42:27.372853+00:00", "driver": "Priya", "event": "PROCESSED", "id": "R-028-59eeda64", "routing_key": "bangalore.indiranagar.food", "zone": "indiranagar"}
+{"at": "2026-11-16T10:42:27.372988+00:00", "driver": "Priya", "event": "ACK", "id": "R-028-59eeda64", "routing_key": "bangalore.indiranagar.food"}
+{"at": "2026-11-16T10:42:41.375059+00:00", "driver": "Priya", "event": "PROCESSED", "id": "R-035-4d424896", "routing_key": "bangalore.indiranagar.food", "zone": "indiranagar"}
+{"at": "2026-11-16T10:42:41.375320+00:00", "driver": "Priya", "event": "ACK", "id": "R-035-4d424896", "routing_key": "bangalore.indiranagar.food"}
+{"at": "2026-11-16T10:43:19.373287+00:00", "driver": "Priya", "event": "PROCESSED", "id": "R-054-1444c62f", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:43:19.373607+00:00", "driver": "Priya", "event": "ACK", "id": "R-054-1444c62f", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:43:41.281363+00:00", "driver": "Priya", "event": "STOPPED"}

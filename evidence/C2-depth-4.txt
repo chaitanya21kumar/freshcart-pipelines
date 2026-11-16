@@ -1,0 +1,34 @@
+$ run iris_project iris_classifier --test --runtime-vars {"max_depth": 4}
+WARNING:traitlets:Message signing is disabled.  This is insecure and not recommended!
+WARNING:traitlets:Message signing is disabled.  This is insecure and not recommended!
+INFO:mage_ai.data_preparation.executors.pipeline_executor:[PipelineExecutor] No running loop, using asyncio.run
+DBT library not installed.
+Rows loaded: 150
+--------------------------------------------------------------
+1/1 tests passed.
+Train rows: 120 | Test rows: 30
+--------------------------------------------------------------
+1/1 tests passed.
+max_depth = 4 | Test accuracy = 1.0
+--------------------------------------------------------------
+1/1 tests passed.
+Confusion matrix:
+predicted   0  1   2
+actual              
+0          10  0   0
+1           0  9   0
+2           0  0  11
+   metric  value
+ accuracy    1.0
+precision    1.0
+   recall    1.0
+ f1_score    1.0
+Saved 30 predictions to iris_predictions.csv
+--------------------------------------------------------------
+1/1 tests passed.
+--------------------------------------------------------------
+1/1 tests passed.
+Saved 4 metrics to iris_metrics.csv
+--------------------------------------------------------------
+1/1 tests passed.
+Pipeline run completed.

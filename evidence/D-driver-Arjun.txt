@@ -1,0 +1,42 @@
+{"at": "2026-11-16T10:41:32.981319+00:00", "driver": "Arjun", "event": "READY", "exclusive": true, "pattern": "bangalore.*.ride", "queue": "amq.gen-Jo50Ki6QSne-pVdD7T2hwA"}
+{"at": "2026-11-16T10:41:33.369255+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "D1-2", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:33.369344+00:00", "driver": "Arjun", "event": "ACK", "id": "D1-2", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:41:33.369851+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "D1-3", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:33.369910+00:00", "driver": "Arjun", "event": "ACK", "id": "D1-3", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:37.374214+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-003-2ea984a4", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:37.374350+00:00", "driver": "Arjun", "event": "ACK", "id": "R-003-2ea984a4", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:41.375606+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-005-484fca04", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:41.375924+00:00", "driver": "Arjun", "event": "ACK", "id": "R-005-484fca04", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:43.375464+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-006-530324ea", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:43.375756+00:00", "driver": "Arjun", "event": "ACK", "id": "R-006-530324ea", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:41:45.375550+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-007-149146fc", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:45.375858+00:00", "driver": "Arjun", "event": "ACK", "id": "R-007-149146fc", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:41:49.374970+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-009-4a5285d5", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:49.375259+00:00", "driver": "Arjun", "event": "ACK", "id": "R-009-4a5285d5", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:03.372992+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-016-1ebfa628", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:03.373169+00:00", "driver": "Arjun", "event": "ACK", "id": "R-016-1ebfa628", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:07.373722+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-018-8a887dc1", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:07.373899+00:00", "driver": "Arjun", "event": "ACK", "id": "R-018-8a887dc1", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:13.374067+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-021-dc30c9b8", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:13.374310+00:00", "driver": "Arjun", "event": "ACK", "id": "R-021-dc30c9b8", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:23.374230+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-026-f8b9907b", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:23.374432+00:00", "driver": "Arjun", "event": "ACK", "id": "R-026-f8b9907b", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:25.373051+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-027-35a537e1", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:25.373206+00:00", "driver": "Arjun", "event": "ACK", "id": "R-027-35a537e1", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:35.372166+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-032-1ba4c1cd", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:35.372285+00:00", "driver": "Arjun", "event": "ACK", "id": "R-032-1ba4c1cd", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:43.373551+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-036-adcf11f9", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:43.373844+00:00", "driver": "Arjun", "event": "ACK", "id": "R-036-adcf11f9", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:47.373533+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-038-a1ce0ce0", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:47.373681+00:00", "driver": "Arjun", "event": "ACK", "id": "R-038-a1ce0ce0", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:59.372732+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-044-352a165d", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:59.372869+00:00", "driver": "Arjun", "event": "ACK", "id": "R-044-352a165d", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:43:01.372807+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-045-75247c84", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:43:01.372961+00:00", "driver": "Arjun", "event": "ACK", "id": "R-045-75247c84", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:43:09.372948+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-049-86f65746", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:43:09.373325+00:00", "driver": "Arjun", "event": "ACK", "id": "R-049-86f65746", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:43:19.373108+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-054-1444c62f", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:43:19.373368+00:00", "driver": "Arjun", "event": "ACK", "id": "R-054-1444c62f", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:43:25.372855+00:00", "driver": "Arjun", "event": "PROCESSED", "id": "R-057-c88dfb53", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:43:25.373080+00:00", "driver": "Arjun", "event": "ACK", "id": "R-057-c88dfb53", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:43:41.061000+00:00", "driver": "Arjun", "event": "STOPPED"}

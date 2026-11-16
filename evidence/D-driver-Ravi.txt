@@ -1,0 +1,28 @@
+{"at": "2026-11-16T10:41:33.145084+00:00", "driver": "Ravi", "event": "READY", "exclusive": true, "pattern": "bangalore.koramangala.*", "queue": "amq.gen-GIuLjOBWTDSnD98QIHFQng"}
+{"at": "2026-11-16T10:41:33.368481+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "D1-1", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:33.368582+00:00", "driver": "Ravi", "event": "ACK", "id": "D1-1", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:41:35.376007+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-002-0f1ae831", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:35.376258+00:00", "driver": "Ravi", "event": "ACK", "id": "R-002-0f1ae831", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:41:45.375595+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-007-149146fc", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:45.375935+00:00", "driver": "Ravi", "event": "ACK", "id": "R-007-149146fc", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:41:51.375624+00:00", "driver": "Ravi", "event": "NACK_DISCARD", "id": "R-010-a006cfcd", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:01.374577+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-015-78f89ff4", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:01.374891+00:00", "driver": "Ravi", "event": "ACK", "id": "R-015-78f89ff4", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:03.373002+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-016-1ebfa628", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:03.373173+00:00", "driver": "Ravi", "event": "ACK", "id": "R-016-1ebfa628", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:11.375205+00:00", "driver": "Ravi", "event": "NACK_DISCARD", "id": "R-020-f660591a", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:15.374861+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-022-76b6bade", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:15.375077+00:00", "driver": "Ravi", "event": "ACK", "id": "R-022-76b6bade", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:21.374652+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-025-e724a8f6", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:21.374878+00:00", "driver": "Ravi", "event": "ACK", "id": "R-025-e724a8f6", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:23.374229+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-026-f8b9907b", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:23.374426+00:00", "driver": "Ravi", "event": "ACK", "id": "R-026-f8b9907b", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:25.373071+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-027-35a537e1", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:25.373218+00:00", "driver": "Ravi", "event": "ACK", "id": "R-027-35a537e1", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:31.375116+00:00", "driver": "Ravi", "event": "NACK_DISCARD", "id": "R-030-7ec51206", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:51.372369+00:00", "driver": "Ravi", "event": "NACK_DISCARD", "id": "R-040-b6658aac", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:59.372680+00:00", "driver": "Ravi", "event": "PROCESSED", "id": "R-044-352a165d", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:59.372820+00:00", "driver": "Ravi", "event": "ACK", "id": "R-044-352a165d", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:43:11.374145+00:00", "driver": "Ravi", "event": "NACK_DISCARD", "id": "R-050-39a3c840", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:43:31.373012+00:00", "driver": "Ravi", "event": "NACK_DISCARD", "id": "R-060-2bb62dff", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:43:41.230039+00:00", "driver": "Ravi", "event": "STOPPED"}

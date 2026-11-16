@@ -1,0 +1,94 @@
+{
+  "routing": [
+    {
+      "key": "bangalore.koramangala.food",
+      "expected": [
+        "Ravi",
+        "Meena",
+        "Control"
+      ],
+      "actual": [
+        "Ravi",
+        "Meena",
+        "Control"
+      ],
+      "match": true
+    },
+    {
+      "key": "bangalore.indiranagar.ride",
+      "expected": [
+        "Priya",
+        "Arjun",
+        "Control"
+      ],
+      "actual": [
+        "Priya",
+        "Arjun",
+        "Control"
+      ],
+      "match": true
+    },
+    {
+      "key": "bangalore.whitefield.ride",
+      "expected": [
+        "Arjun",
+        "Control"
+      ],
+      "actual": [
+        "Arjun",
+        "Control"
+      ],
+      "match": true
+    },
+    {
+      "key": "chennai.tnagar.food",
+      "expected": [
+        "Karthik"
+      ],
+      "actual": [
+        "Karthik"
+      ],
+      "match": true
+    },
+    {
+      "key": "chennai.whitefield.ride",
+      "expected": [],
+      "actual": [],
+      "match": true
+    },
+    {
+      "key": "bangalore.koramangala",
+      "expected": [
+        "Control"
+      ],
+      "actual": [
+        "Control"
+      ],
+      "match": true
+    }
+  ],
+  "nacks": {
+    "Ravi": 6,
+    "Priya": 0,
+    "Arjun": 0,
+    "Meena": 6,
+    "Karthik": 0,
+    "Control": 6
+  },
+  "acks": {
+    "Ravi": 10,
+    "Priya": 6,
+    "Arjun": 20,
+    "Meena": 13,
+    "Karthik": 6,
+    "Control": 34
+  },
+  "duration": {
+    "at": "2026-11-16T10:43:33.369616+00:00",
+    "elapsed_seconds": 120.001,
+    "event": "FINISHED",
+    "random_messages": 60
+  },
+  "bad_messages_per_10": true,
+  "driver_count": 6
+}

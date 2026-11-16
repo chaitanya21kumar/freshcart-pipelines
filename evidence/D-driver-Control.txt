@@ -1,0 +1,76 @@
+{"at": "2026-11-16T10:41:33.140458+00:00", "driver": "Control", "event": "READY", "exclusive": true, "pattern": "bangalore.#", "queue": "amq.gen-vSXjeX1iSE6PrLK_lbuZNg"}
+{"at": "2026-11-16T10:41:33.368528+00:00", "driver": "Control", "event": "PROCESSED", "id": "D1-1", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:33.368652+00:00", "driver": "Control", "event": "ACK", "id": "D1-1", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:41:33.369291+00:00", "driver": "Control", "event": "PROCESSED", "id": "D1-2", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:33.369367+00:00", "driver": "Control", "event": "ACK", "id": "D1-2", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:41:33.369841+00:00", "driver": "Control", "event": "PROCESSED", "id": "D1-3", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:33.369895+00:00", "driver": "Control", "event": "ACK", "id": "D1-3", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:33.371382+00:00", "driver": "Control", "event": "PROCESSED", "id": "D1-6", "routing_key": "bangalore.koramangala", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:33.371460+00:00", "driver": "Control", "event": "ACK", "id": "D1-6", "routing_key": "bangalore.koramangala"}
+{"at": "2026-11-16T10:41:35.375934+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-002-0f1ae831", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:35.376191+00:00", "driver": "Control", "event": "ACK", "id": "R-002-0f1ae831", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:41:37.374204+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-003-2ea984a4", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:37.374349+00:00", "driver": "Control", "event": "ACK", "id": "R-003-2ea984a4", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:39.375960+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-004-fca3a2f1", "routing_key": "bangalore.indiranagar.food", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:39.376268+00:00", "driver": "Control", "event": "ACK", "id": "R-004-fca3a2f1", "routing_key": "bangalore.indiranagar.food"}
+{"at": "2026-11-16T10:41:41.375585+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-005-484fca04", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:41.375875+00:00", "driver": "Control", "event": "ACK", "id": "R-005-484fca04", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:43.375455+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-006-530324ea", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:41:43.375756+00:00", "driver": "Control", "event": "ACK", "id": "R-006-530324ea", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:41:45.375551+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-007-149146fc", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:41:45.375856+00:00", "driver": "Control", "event": "ACK", "id": "R-007-149146fc", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:41:47.375639+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-008-49dce70a", "routing_key": "bangalore.whitefield.food", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:47.375928+00:00", "driver": "Control", "event": "ACK", "id": "R-008-49dce70a", "routing_key": "bangalore.whitefield.food"}
+{"at": "2026-11-16T10:41:49.375059+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-009-4a5285d5", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:49.375357+00:00", "driver": "Control", "event": "ACK", "id": "R-009-4a5285d5", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:41:51.375620+00:00", "driver": "Control", "event": "NACK_DISCARD", "id": "R-010-a006cfcd", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:41:55.374814+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-012-be1c378b", "routing_key": "bangalore.whitefield.food", "zone": "whitefield"}
+{"at": "2026-11-16T10:41:55.375113+00:00", "driver": "Control", "event": "ACK", "id": "R-012-be1c378b", "routing_key": "bangalore.whitefield.food"}
+{"at": "2026-11-16T10:42:01.374602+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-015-78f89ff4", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:01.374895+00:00", "driver": "Control", "event": "ACK", "id": "R-015-78f89ff4", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:03.372995+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-016-1ebfa628", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:03.373169+00:00", "driver": "Control", "event": "ACK", "id": "R-016-1ebfa628", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:05.374939+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-017-e729d560", "routing_key": "bangalore.whitefield.food", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:05.375250+00:00", "driver": "Control", "event": "ACK", "id": "R-017-e729d560", "routing_key": "bangalore.whitefield.food"}
+{"at": "2026-11-16T10:42:07.373712+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-018-8a887dc1", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:07.373882+00:00", "driver": "Control", "event": "ACK", "id": "R-018-8a887dc1", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:09.374077+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-019-07a28424", "routing_key": "bangalore.whitefield.food", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:09.374299+00:00", "driver": "Control", "event": "ACK", "id": "R-019-07a28424", "routing_key": "bangalore.whitefield.food"}
+{"at": "2026-11-16T10:42:11.375052+00:00", "driver": "Control", "event": "NACK_DISCARD", "id": "R-020-f660591a", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:13.374060+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-021-dc30c9b8", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:13.374307+00:00", "driver": "Control", "event": "ACK", "id": "R-021-dc30c9b8", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:15.374854+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-022-76b6bade", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:15.375074+00:00", "driver": "Control", "event": "ACK", "id": "R-022-76b6bade", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:21.374642+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-025-e724a8f6", "routing_key": "bangalore.koramangala.food", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:21.374877+00:00", "driver": "Control", "event": "ACK", "id": "R-025-e724a8f6", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:23.374231+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-026-f8b9907b", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:23.374427+00:00", "driver": "Control", "event": "ACK", "id": "R-026-f8b9907b", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:25.373066+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-027-35a537e1", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:25.373212+00:00", "driver": "Control", "event": "ACK", "id": "R-027-35a537e1", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:42:27.372851+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-028-59eeda64", "routing_key": "bangalore.indiranagar.food", "zone": "indiranagar"}
+{"at": "2026-11-16T10:42:27.372978+00:00", "driver": "Control", "event": "ACK", "id": "R-028-59eeda64", "routing_key": "bangalore.indiranagar.food"}
+{"at": "2026-11-16T10:42:31.375004+00:00", "driver": "Control", "event": "NACK_DISCARD", "id": "R-030-7ec51206", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:33.372727+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-031-d6004dec", "routing_key": "bangalore.whitefield.food", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:33.372898+00:00", "driver": "Control", "event": "ACK", "id": "R-031-d6004dec", "routing_key": "bangalore.whitefield.food"}
+{"at": "2026-11-16T10:42:35.372147+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-032-1ba4c1cd", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:35.372252+00:00", "driver": "Control", "event": "ACK", "id": "R-032-1ba4c1cd", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:41.375092+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-035-4d424896", "routing_key": "bangalore.indiranagar.food", "zone": "indiranagar"}
+{"at": "2026-11-16T10:42:41.375341+00:00", "driver": "Control", "event": "ACK", "id": "R-035-4d424896", "routing_key": "bangalore.indiranagar.food"}
+{"at": "2026-11-16T10:42:43.373545+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-036-adcf11f9", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:43.373845+00:00", "driver": "Control", "event": "ACK", "id": "R-036-adcf11f9", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:47.373576+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-038-a1ce0ce0", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:42:47.373719+00:00", "driver": "Control", "event": "ACK", "id": "R-038-a1ce0ce0", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:42:51.372417+00:00", "driver": "Control", "event": "NACK_DISCARD", "id": "R-040-b6658aac", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:42:59.372699+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-044-352a165d", "routing_key": "bangalore.koramangala.ride", "zone": "koramangala"}
+{"at": "2026-11-16T10:42:59.372836+00:00", "driver": "Control", "event": "ACK", "id": "R-044-352a165d", "routing_key": "bangalore.koramangala.ride"}
+{"at": "2026-11-16T10:43:01.372854+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-045-75247c84", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:43:01.373011+00:00", "driver": "Control", "event": "ACK", "id": "R-045-75247c84", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:43:09.372940+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-049-86f65746", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:43:09.373279+00:00", "driver": "Control", "event": "ACK", "id": "R-049-86f65746", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:43:11.373928+00:00", "driver": "Control", "event": "NACK_DISCARD", "id": "R-050-39a3c840", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:43:19.373139+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-054-1444c62f", "routing_key": "bangalore.indiranagar.ride", "zone": "indiranagar"}
+{"at": "2026-11-16T10:43:19.373412+00:00", "driver": "Control", "event": "ACK", "id": "R-054-1444c62f", "routing_key": "bangalore.indiranagar.ride"}
+{"at": "2026-11-16T10:43:25.372881+00:00", "driver": "Control", "event": "PROCESSED", "id": "R-057-c88dfb53", "routing_key": "bangalore.whitefield.ride", "zone": "whitefield"}
+{"at": "2026-11-16T10:43:25.373102+00:00", "driver": "Control", "event": "ACK", "id": "R-057-c88dfb53", "routing_key": "bangalore.whitefield.ride"}
+{"at": "2026-11-16T10:43:31.372914+00:00", "driver": "Control", "event": "NACK_DISCARD", "id": "R-060-2bb62dff", "reason": "missing zone", "routing_key": "bangalore.koramangala.food"}
+{"at": "2026-11-16T10:43:41.223842+00:00", "driver": "Control", "event": "STOPPED"}
