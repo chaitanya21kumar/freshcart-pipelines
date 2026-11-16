@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-11-16T10:37:36.381980+00:00",
+  "stage": "before Snowflake change experiment",
+  "CUST-02 rows": 2,
+  "ORD-1002 tier": "Gold",
+  "ORD-1002 points": 70,
+  "gold total points": 161,
+  "published_at changed rows": 1,
+  "arithmetic": "42.50 USD * 83.20 INR/USD = 3536 INR; floor(3536/100)*2=70; 126-35+70=161"
+}

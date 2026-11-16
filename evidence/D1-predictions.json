@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-11-16T10:37:36.381458+00:00",
+  "stage": "before broker experiment",
+  "routing": {
+    "bangalore.koramangala.food": [
+      "Ravi",
+      "Meena",
+      "Control"
+    ],
+    "bangalore.indiranagar.ride": [
+      "Priya",
+      "Arjun",
+      "Control"
+    ],
+    "bangalore.whitefield.ride": [
+      "Arjun",
+      "Control"
+    ],
+    "chennai.tnagar.food": [
+      "Karthik"
+    ],
+    "chennai.whitefield.ride": [],
+    "bangalore.koramangala": [
+      "Control"
+    ]
+  }
+}

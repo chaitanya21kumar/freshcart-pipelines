@@ -1,0 +1,9 @@
+mage-ai==0.9.80
+scikit-learn
+pytest
+pika
+snowflake-connector-python
+pandas
+nbformat
+nbclient
+ipykernel
