@@ -1,0 +1,3 @@
+project_type: standalone
+variables_dir: ~/.mage_data
+remote_variables_dir: null
