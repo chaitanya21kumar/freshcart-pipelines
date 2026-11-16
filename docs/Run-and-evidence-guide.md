@@ -1,6 +1,6 @@
 # Run and evidence guide
 
-Chaitanya Kumar, 23BCS064, CS-8037. Prepared for review on 16 November 2026. Nothing has been uploaded or turned in to Classroom. The repository remains private until the student approves instructor access or publication.
+Chaitanya Kumar, 23BCS064, CS-8037. Submitted through Google Classroom on 16 November 2026 after student approval. Classroom showed Turned in with the public repository URL and a direct PDF download link. The school Drive account was over its storage allowance, preventing a native Drive upload. See the report download link in README.md. The release tag preserves the implementation/evidence snapshot used for the report.
 
 ## Run locally
 
