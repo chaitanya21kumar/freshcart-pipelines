@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "rows gained or lost while enriching": 0,
+    "duplicate orders in gold": 0,
+    "orders with no customer match": 0,
+    "orders with an amount but no FX rate": 0,
+    "orders dated in the future": 0,
+    "orders with no city": 0
+  },
+  "gold": {
+    "orders": 4,
+    "revenue_inr": "7785.00",
+    "loyalty_points": 161
+  }
+}

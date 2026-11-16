@@ -554,16 +554,23 @@ def run_pipeline():
     orders, revenue, points = query("SELECT COUNT(*), SUM(amount_inr), SUM(loyalty_points) FROM gold.fct_orders")[0]
     print(f"GOLD: {orders} orders, revenue ₹{revenue}, {points} loyalty points")
 
-def connect_snowflake(account=None, user=None, authenticator='externalbrowser'):
-    """Use an ordinary browser sign-in by default; no password is written to disk."""
+def connect_snowflake(account=None, user=None, authenticator='snowflake'):
+    """Prompt for an existing native password; never write it to disk or notebook outputs."""
     import snowflake.connector
     global conn
     account = account or os.environ.get('SNOWFLAKE_ACCOUNT')
     user = user or os.environ.get('SNOWFLAKE_USER')
     if not account or not user:
         raise ValueError('Set SNOWFLAKE_ACCOUNT and SNOWFLAKE_USER to your own trial details')
-    conn = snowflake.connector.connect(account=account, user=user, authenticator=authenticator,
+    options = dict(account=account, user=user, authenticator=authenticator,
         role=os.environ.get('SNOWFLAKE_ROLE','ACCOUNTADMIN'), client_session_keep_alive=False)
+    if authenticator == 'snowflake':
+        from getpass import getpass
+        options['password'] = getpass('Existing Snowflake password (hidden): ')
+    try:
+        conn = snowflake.connector.connect(**options)
+    finally:
+        options.pop('password', None)
     print('Connected to own trial:', query('SELECT CURRENT_USER(), CURRENT_ROLE()')[0])
     return conn
 

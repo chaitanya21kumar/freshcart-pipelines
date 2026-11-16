@@ -1,0 +1,50 @@
+{"at": "2026-11-16T11:05:45.831252+00:00", "event": "BONUS_RECEIVED", "order_id": "ORD-2001"}
+{"at": "2026-11-16T11:05:47.836102+00:00", "event": "BONUS_RECEIVED", "order_id": "ORD-2002"}
+   web: 2 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110640_047158.json.gz
+{"at": "2026-11-16T11:06:40.059297+00:00", "count": 2, "elapsed_seconds": 60.013, "event": "BONUS_LANDED"}
+Existing Snowflake password (hidden): 
+Connected to own trial: ('CHAITANYA23BCS064', 'ACCOUNTADMIN')
+   2 rows -> bronze.orders_raw
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 24%
+   web: 2 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110930_704910.json.gz
+   2 rows -> bronze.orders_raw
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 22%
+{
+  "batch_order_ids": [
+    "ORD-2001",
+    "ORD-2002"
+  ],
+  "first_gold_totals": {
+    "orders": 6,
+    "revenue_inr": "9117.00",
+    "loyalty_points": 182
+  },
+  "second_gold_totals": {
+    "orders": 6,
+    "revenue_inr": "9117.00",
+    "loyalty_points": 182
+  },
+  "replay_bronze_growth": 2,
+  "published_at_changed_on_replay": 0,
+  "checks": {
+    "rows gained or lost while enriching": 0,
+    "duplicate orders in gold": 0,
+    "orders with no customer match": 0,
+    "orders with an amount but no FX rate": 0,
+    "orders dated in the future": 0,
+    "orders with no city": 0
+  }
+}
+

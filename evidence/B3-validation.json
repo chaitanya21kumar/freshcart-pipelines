@@ -1,0 +1,21 @@
+{
+  "checked_reasons_before": [
+    "bad_email",
+    "bad_pincode"
+  ],
+  "checked_reasons_after": [
+    "bad_email",
+    "bad_pincode",
+    "unsupported_currency"
+  ],
+  "stored_quarantine_reasons": [
+    "bad_email",
+    "bad_pincode"
+  ],
+  "quarantine_rows": 2,
+  "gold": {
+    "orders": 4,
+    "revenue_inr": "7785.00",
+    "loyalty_points": 126
+  }
+}

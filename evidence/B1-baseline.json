@@ -1,0 +1,12 @@
+{
+  "bronze_rows": 8,
+  "silver_clean_rows": 6,
+  "quarantine_rows": 2,
+  "dedup_rows": 4,
+  "gold": {
+    "orders": 4,
+    "revenue_inr": "7785.00",
+    "loyalty_points": 126
+  },
+  "rejected_share": "0.250000"
+}

@@ -1,0 +1,26 @@
+{
+  "batch_order_ids": [
+    "ORD-2001",
+    "ORD-2002"
+  ],
+  "first_gold_totals": {
+    "orders": 6,
+    "revenue_inr": "9117.00",
+    "loyalty_points": 182
+  },
+  "second_gold_totals": {
+    "orders": 6,
+    "revenue_inr": "9117.00",
+    "loyalty_points": 182
+  },
+  "replay_bronze_growth": 2,
+  "published_at_changed_on_replay": 0,
+  "checks": {
+    "rows gained or lost while enriching": 0,
+    "duplicate orders in gold": 0,
+    "orders with no customer match": 0,
+    "orders with an amount but no FX rate": 0,
+    "orders dated in the future": 0,
+    "orders with no city": 0
+  }
+}

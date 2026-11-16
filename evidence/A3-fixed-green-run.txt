@@ -1,0 +1,957 @@
+test	Set up job	﻿2026-11-16T10:46:06.5621529Z Current runner version: '2.338.2'
+test	Set up job	2026-11-16T10:46:06.5652844Z ##[group]Runner Image Provisioner
+test	Set up job	2026-11-16T10:46:06.5653837Z Hosted Compute Agent
+test	Set up job	2026-11-16T10:46:06.5654539Z Version: 20261103.629
+test	Set up job	2026-11-16T10:46:06.5655417Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+test	Set up job	2026-11-16T10:46:06.5656418Z Build Date: 2026-11-03T17:26:59Z
+test	Set up job	2026-11-16T10:46:06.5657352Z Worker ID: {3b2ca499-e5f7-4c48-97b0-b5fa36ab799b}
+test	Set up job	2026-11-16T10:46:06.5658256Z Region: westus2
+test	Set up job	2026-11-16T10:46:06.5658927Z Cloud: Azure
+test	Set up job	2026-11-16T10:46:06.5659702Z ##[endgroup]
+test	Set up job	2026-11-16T10:46:06.5661863Z ##[group]Operating System
+test	Set up job	2026-11-16T10:46:06.5662722Z Ubuntu
+test	Set up job	2026-11-16T10:46:06.5663374Z 26.04.1
+test	Set up job	2026-11-16T10:46:06.5663998Z LTS
+test	Set up job	2026-11-16T10:46:06.5664718Z ##[endgroup]
+test	Set up job	2026-11-16T10:46:06.5665415Z ##[group]Runner Image
+test	Set up job	2026-11-16T10:46:06.5666298Z Image: ubuntu-26.04
+test	Set up job	2026-11-16T10:46:06.5667009Z Version: 20261111.196.1
+test	Set up job	2026-11-16T10:46:06.5668341Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.196/images/ubuntu/Ubuntu2604-Readme.md
+test	Set up job	2026-11-16T10:46:06.5670825Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.196
+test	Set up job	2026-11-16T10:46:06.5672137Z ##[endgroup]
+test	Set up job	2026-11-16T10:46:06.5673509Z ##[group]GITHUB_TOKEN Permissions
+test	Set up job	2026-11-16T10:46:06.5675701Z Contents: read
+test	Set up job	2026-11-16T10:46:06.5676476Z Metadata: read
+test	Set up job	2026-11-16T10:46:06.5677193Z ##[endgroup]
+test	Set up job	2026-11-16T10:46:06.5680454Z Secret source: Actions
+test	Set up job	2026-11-16T10:46:06.5681667Z Cache mode: write
+test	Set up job	2026-11-16T10:46:06.5682666Z Prepare workflow directory
+test	Set up job	2026-11-16T10:46:06.6925681Z Prepare all required actions
+test	Set up job	2026-11-16T10:46:06.7044252Z Getting action download info
+test	Set up job	2026-11-16T10:46:07.0633881Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+test	Set up job	2026-11-16T10:46:07.2018474Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+test	Set up job	2026-11-16T10:46:07.4208239Z Complete job name: test
+test	Run actions/checkout@v4	﻿2026-11-16T10:46:07.4930681Z ##[group]Run actions/checkout@v4
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4931474Z with:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4931894Z   repository: chaitanya21kumar/freshcart-pipelines
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4934948Z   token: ***
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4935318Z   ssh-strict: true
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4935677Z   ssh-user: git
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4936044Z   persist-credentials: true
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4936437Z   clean: true
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4936797Z   sparse-checkout-cone-mode: true
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4937214Z   fetch-depth: 1
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4937560Z   fetch-tags: false
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4937919Z   show-progress: true
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4938278Z   lfs: false
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4938611Z   submodules: false
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4938978Z   set-safe-directory: true
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4939389Z   allow-unsafe-pr-checkout: false
+test	Run actions/checkout@v4	2026-11-16T10:46:07.4940158Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8020675Z Syncing repository: chaitanya21kumar/freshcart-pipelines
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8024222Z ##[group]Getting Git version info
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8025930Z Working directory is '/home/runner/work/freshcart-pipelines/freshcart-pipelines'
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8028168Z [command]/usr/bin/git version
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8029282Z git version 2.56.1
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8032770Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8038742Z Temporarily overriding HOME='/home/runner/work/_temp/b9bebbc3-7c53-4428-84ea-dfa2b2de65a9' before making global git config changes
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8051311Z Adding repository directory to the temporary git global config as a safe directory
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8071099Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/freshcart-pipelines/freshcart-pipelines
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8074666Z Deleting the contents of '/home/runner/work/freshcart-pipelines/freshcart-pipelines'
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8076939Z ##[group]Initializing the repository
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8078008Z [command]/usr/bin/git init /home/runner/work/freshcart-pipelines/freshcart-pipelines
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8079695Z hint: Using 'master' as the name for the initial branch. This default branch name
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8081945Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8083440Z hint: to use in all of your new repositories, which will suppress this warning,
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8084692Z hint: call:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8085439Z hint:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8086322Z hint: 	git config --global init.defaultBranch <name>
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8087358Z hint:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8088356Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8090079Z hint: 'development'. The just-created branch can be renamed via this command:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8091470Z hint:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8092268Z hint: 	git branch -m <name>
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8093142Z hint:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8094208Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8096064Z Initialized empty Git repository in /home/runner/work/freshcart-pipelines/freshcart-pipelines/.git/
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8099132Z [command]/usr/bin/git remote add origin https://github.com/chaitanya21kumar/freshcart-pipelines
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8102199Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8103397Z ##[group]Disabling automatic garbage collection
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8104532Z [command]/usr/bin/git config --local gc.auto 0
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8106878Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8108021Z ##[group]Setting up auth
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8109201Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8113163Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8344771Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8380784Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8651729Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8686553Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8937590Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8980103Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8981978Z ##[group]Fetching the repository
+test	Run actions/checkout@v4	2026-11-16T10:46:07.8990629Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +77fdd8329a1f1114011cc698c4faf13d14977588:refs/remotes/origin/assignment-review
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1796849Z From https://github.com/chaitanya21kumar/freshcart-pipelines
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1798652Z  * [new ref]         77fdd8329a1f1114011cc698c4faf13d14977588 -> origin/assignment-review
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1812257Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1813321Z ##[group]Determining the checkout info
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1814867Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1815971Z [command]/usr/bin/git sparse-checkout disable
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1865794Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1894855Z ##[group]Checking out the ref
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1898529Z [command]/usr/bin/git checkout --progress --force -B assignment-review refs/remotes/origin/assignment-review
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1975866Z Switched to a new branch 'assignment-review'
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1980569Z branch 'assignment-review' set up to track 'origin/assignment-review'.
+test	Run actions/checkout@v4	2026-11-16T10:46:08.1991763Z ##[endgroup]
+test	Run actions/checkout@v4	2026-11-16T10:46:08.2024640Z [command]/usr/bin/git log -1 --format=%H
+test	Run actions/checkout@v4	2026-11-16T10:46:08.2048447Z 77fdd8329a1f1114011cc698c4faf13d14977588
+test	Run actions/setup-python@v5	﻿2026-11-16T10:46:08.2308703Z ##[group]Run actions/setup-python@v5
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2309228Z with:
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2309594Z   python-version: 3.12
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2310249Z   cache: pip
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2310833Z   check-latest: false
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2313957Z   token: ***
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2314346Z   update-environment: true
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2314787Z   allow-prereleases: false
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2315207Z   freethreaded: false
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.2315605Z ##[endgroup]
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.3490157Z ##[group]Installed versions
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.3566419Z (node:2083) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.3568355Z Successfully set up CPython (3.12.16)
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.3570166Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.3580627Z ##[endgroup]
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.4701502Z [command]/opt/hostedtoolcache/Python/3.12.16/x64/bin/pip cache dir
+test	Run actions/setup-python@v5	2026-11-16T10:46:08.7361054Z /home/runner/.cache/pip
+test	Run actions/setup-python@v5	2026-11-16T10:46:09.0263246Z Cache hit for: setup-python-Linux-x64-26.04-Ubuntu-python-3.12.16-pip-90be02dc11a4096e737d7feb2551fd4cbe97a86fc71c217be71d2e5b261c2219
+test	Run actions/setup-python@v5	2026-11-16T10:46:09.0361155Z (node:2083) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+test	Run actions/setup-python@v5	2026-11-16T10:46:10.3220610Z Received 8388608 of 356660526 (2.4%), 8.0 MBs/sec
+test	Run actions/setup-python@v5	2026-11-16T10:46:11.3230619Z Received 125829120 of 356660526 (35.3%), 60.0 MBs/sec
+test	Run actions/setup-python@v5	2026-11-16T10:46:12.3321402Z Received 243269632 of 356660526 (68.2%), 77.3 MBs/sec
+test	Run actions/setup-python@v5	2026-11-16T10:46:13.3244994Z Received 339883310 of 356660526 (95.3%), 81.0 MBs/sec
+test	Run actions/setup-python@v5	2026-11-16T10:46:13.5421553Z Received 356660526 of 356660526 (100.0%), 80.6 MBs/sec
+test	Run actions/setup-python@v5	2026-11-16T10:46:13.5450534Z Cache Size: ~340 MB (356660526 B)
+test	Run actions/setup-python@v5	2026-11-16T10:46:13.5621381Z [command]/usr/bin/tar -xf /home/runner/work/_temp/9296111d-f83d-47f7-a61f-13ab6f194feb/cache.tzst -P -C /home/runner/work/freshcart-pipelines/freshcart-pipelines --use-compress-program unzstd
+test	Run actions/setup-python@v5	2026-11-16T10:46:14.5448225Z Cache restored successfully
+test	Run actions/setup-python@v5	2026-11-16T10:46:14.5611633Z Cache restored from key: setup-python-Linux-x64-26.04-Ubuntu-python-3.12.16-pip-90be02dc11a4096e737d7feb2551fd4cbe97a86fc71c217be71d2e5b261c2219
+test	Install requirements	﻿2026-11-16T10:46:14.6246428Z ##[group]Run python -m pip install -r requirements.txt
+test	Install requirements	2026-11-16T10:46:14.6246868Z ^[[36;1mpython -m pip install -r requirements.txt^[[0m
+test	Install requirements	2026-11-16T10:46:14.6301015Z shell: /usr/bin/bash -e {0}
+test	Install requirements	2026-11-16T10:46:14.6301287Z env:
+test	Install requirements	2026-11-16T10:46:14.6301557Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Install requirements	2026-11-16T10:46:14.6301941Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+test	Install requirements	2026-11-16T10:46:14.6302301Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Install requirements	2026-11-16T10:46:14.6302616Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Install requirements	2026-11-16T10:46:14.6302925Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Install requirements	2026-11-16T10:46:14.6303237Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+test	Install requirements	2026-11-16T10:46:14.6303507Z ##[endgroup]
+test	Install requirements	2026-11-16T10:46:15.5910764Z Collecting mage-ai==0.9.80 (from -r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:15.5923798Z   Using cached mage_ai-0.9.80-py3-none-any.whl.metadata (14 kB)
+test	Install requirements	2026-11-16T10:46:15.6793891Z Collecting scikit-learn (from -r requirements.txt (line 2))
+test	Install requirements	2026-11-16T10:46:15.6805351Z   Using cached scikit_learn-1.9.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.3 kB)
+test	Install requirements	2026-11-16T10:46:15.6976163Z Collecting pytest (from -r requirements.txt (line 3))
+test	Install requirements	2026-11-16T10:46:15.6985214Z   Using cached pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+test	Install requirements	2026-11-16T10:46:15.7050656Z Collecting pika (from -r requirements.txt (line 4))
+test	Install requirements	2026-11-16T10:46:15.7060396Z   Using cached pika-1.4.4-py3-none-any.whl.metadata (13 kB)
+test	Install requirements	2026-11-16T10:46:15.8141156Z Collecting snowflake-connector-python (from -r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:15.8160873Z   Using cached snowflake_connector_python-5.2.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:15.9121450Z Collecting pandas (from -r requirements.txt (line 6))
+test	Install requirements	2026-11-16T10:46:15.9127901Z   Using cached pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (16 kB)
+test	Install requirements	2026-11-16T10:46:15.9228214Z Collecting nbformat (from -r requirements.txt (line 7))
+test	Install requirements	2026-11-16T10:46:15.9238330Z   Using cached nbformat-5.11.1-py3-none-any.whl.metadata (3.7 kB)
+test	Install requirements	2026-11-16T10:46:15.9307765Z Collecting nbclient (from -r requirements.txt (line 8))
+test	Install requirements	2026-11-16T10:46:15.9317256Z   Using cached nbclient-0.11.0-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:15.9479672Z Collecting ipykernel (from -r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:15.9490553Z   Using cached ipykernel-7.4.0-py3-none-any.whl.metadata (3.4 kB)
+test	Install requirements	2026-11-16T10:46:15.9589480Z Collecting cachetools (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:15.9599707Z   Using cached cachetools-8.0.0-py3-none-any.whl.metadata (5.6 kB)
+test	Install requirements	2026-11-16T10:46:15.9676684Z Collecting click<8.2.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:15.9686375Z   Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+test	Install requirements	2026-11-16T10:46:16.0001017Z Collecting Faker==4.14.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.0011768Z   Using cached Faker-4.14.0-py3-none-any.whl.metadata (14 kB)
+test	Install requirements	2026-11-16T10:46:16.0104498Z Collecting GitPython==3.1.62 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.0114689Z   Using cached gitpython-3.1.62-py3-none-any.whl.metadata (13 kB)
+test	Install requirements	2026-11-16T10:46:16.0230859Z Collecting Jinja2>=3.1.6 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.0250663Z   Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+test	Install requirements	2026-11-16T10:46:16.1330528Z Collecting Pillow==10.3.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.1342736Z   Using cached pillow-10.3.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+test	Install requirements	2026-11-16T10:46:16.1422702Z Collecting PyGithub==1.59.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.1432678Z   Using cached PyGithub-1.59.0-py3-none-any.whl.metadata (2.0 kB)
+test	Install requirements	2026-11-16T10:46:16.1674497Z Collecting PyJWT==2.6.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.1685620Z   Using cached PyJWT-2.6.0-py3-none-any.whl.metadata (4.0 kB)
+test	Install requirements	2026-11-16T10:46:16.1727326Z Collecting aiofiles==22.1.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.1736582Z   Using cached aiofiles-22.1.0-py3-none-any.whl.metadata (8.0 kB)
+test	Install requirements	2026-11-16T10:46:16.5092642Z Collecting aiohttp==3.10.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.5105476Z   Using cached aiohttp-3.10.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.5 kB)
+test	Install requirements	2026-11-16T10:46:16.5213630Z Collecting alembic>=1.7.5 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.5224197Z   Using cached alembic-1.20.1-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:16.5444883Z Collecting bcrypt==4.0.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.5455881Z   Using cached bcrypt-4.0.1-cp36-abi3-manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+test	Install requirements	2026-11-16T10:46:16.5499321Z Collecting cron-converter==1.2.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.5508917Z   Using cached cron_converter-1.2.1-py3-none-any.whl.metadata (8.1 kB)
+test	Install requirements	2026-11-16T10:46:16.6939902Z Collecting cryptography==42.0.4 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.6952586Z   Using cached cryptography-42.0.4-cp39-abi3-manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+test	Install requirements	2026-11-16T10:46:16.7181226Z Collecting dask>=2022.2.0 (from dask[dataframe]>=2022.2.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.7192716Z   Using cached dask-2026.8.0-py3-none-any.whl.metadata (3.8 kB)
+test	Install requirements	2026-11-16T10:46:16.7266629Z Collecting datadog==0.44.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.7276934Z   Using cached datadog-0.44.0-py2.py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:16.7332886Z Collecting freezegun==1.2.2 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.7343331Z   Using cached freezegun-1.2.2-py3-none-any.whl.metadata (11 kB)
+test	Install requirements	2026-11-16T10:46:16.7586012Z Collecting great-expectations==0.18.12 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.7595962Z   Using cached great_expectations-0.18.12-py3-none-any.whl.metadata (8.9 kB)
+test	Install requirements	2026-11-16T10:46:16.7755936Z Collecting httpx>=0.27.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.7765283Z   Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+test	Install requirements	2026-11-16T10:46:16.7808696Z Collecting inflection==0.5.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.7818077Z   Using cached inflection-0.5.1-py2.py3-none-any.whl.metadata (1.7 kB)
+test	Install requirements	2026-11-16T10:46:16.7838081Z Collecting ipykernel (from -r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:16.7847774Z   Using cached ipykernel-6.15.0-py3-none-any.whl.metadata (5.4 kB)
+test	Install requirements	2026-11-16T10:46:16.8023146Z Collecting ipython==8.10.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8033232Z   Using cached ipython-8.10.0-py3-none-any.whl.metadata (5.7 kB)
+test	Install requirements	2026-11-16T10:46:16.8097443Z Collecting itsdangerous~=1.1.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8106854Z   Using cached itsdangerous-1.1.0-py2.py3-none-any.whl.metadata (3.1 kB)
+test	Install requirements	2026-11-16T10:46:16.8186987Z Collecting joblib>=1.1.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8197668Z   Using cached joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+test	Install requirements	2026-11-16T10:46:16.8319859Z Collecting jupyter-server==2.14.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8330289Z   Using cached jupyter_server-2.14.1-py3-none-any.whl.metadata (8.4 kB)
+test	Install requirements	2026-11-16T10:46:16.8429771Z Collecting jupyter_client==7.4.4 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8439386Z   Using cached jupyter_client-7.4.4-py3-none-any.whl.metadata (8.5 kB)
+test	Install requirements	2026-11-16T10:46:16.8515386Z Collecting ldap3==2.9.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8524830Z   Using cached ldap3-2.9.1-py2.py3-none-any.whl.metadata (5.4 kB)
+test	Install requirements	2026-11-16T10:46:16.8566818Z Collecting memory_profiler (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.8577331Z   Using cached memory_profiler-0.61.0-py3-none-any.whl.metadata (20 kB)
+test	Install requirements	2026-11-16T10:46:16.9381516Z Collecting newrelic==8.8.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:16.9382531Z   Using cached newrelic-8.8.0-cp312-cp312-linux_x86_64.whl
+test	Install requirements	2026-11-16T10:46:17.0740724Z Collecting numpy>=1.22.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.0755017Z   Using cached numpy-2.5.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:17.0783213Z Collecting pandas (from -r requirements.txt (line 6))
+test	Install requirements	2026-11-16T10:46:17.0793919Z   Using cached pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+test	Install requirements	2026-11-16T10:46:17.1412055Z Collecting paramiko==3.5.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.1422347Z   Using cached paramiko-3.5.1-py3-none-any.whl.metadata (4.6 kB)
+test	Install requirements	2026-11-16T10:46:17.2093979Z Collecting polars==1.30.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.2105425Z   Using cached polars-1.30.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+test	Install requirements	2026-11-16T10:46:17.3029908Z Collecting protobuf<7,>=6.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.3043404Z   Using cached protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+test	Install requirements	2026-11-16T10:46:17.3432084Z Collecting psutil==5.9.8 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.3443606Z   Using cached psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+test	Install requirements	2026-11-16T10:46:17.3517372Z Collecting pyairtable>=2.3.3 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.3527393Z   Using cached pyairtable-3.5.1-py2.py3-none-any.whl.metadata (5.0 kB)
+test	Install requirements	2026-11-16T10:46:17.4079117Z Collecting pyarrow<26,>=14.0.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.4090858Z   Using cached pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+test	Install requirements	2026-11-16T10:46:17.4136027Z Collecting python-dateutil==2.8.2 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.4146119Z   Using cached python_dateutil-2.8.2-py2.py3-none-any.whl.metadata (8.2 kB)
+test	Install requirements	2026-11-16T10:46:17.4337944Z Collecting pytz>=2022.2.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.4347920Z   Using cached pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+test	Install requirements	2026-11-16T10:46:17.4560348Z Collecting pyyaml~=6.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.4571140Z   Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+test	Install requirements	2026-11-16T10:46:17.4688168Z Collecting redis~=5.0.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.4698555Z   Using cached redis-5.0.8-py3-none-any.whl.metadata (9.2 kB)
+test	Install requirements	2026-11-16T10:46:17.4796306Z Collecting requests~=2.31.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.4806676Z   Using cached requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+test	Install requirements	2026-11-16T10:46:17.6056690Z Collecting ruamel.yaml==0.17.17 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.6069653Z   Using cached ruamel.yaml-0.17.17-py3-none-any.whl.metadata (12 kB)
+test	Install requirements	2026-11-16T10:46:17.6103232Z Collecting scikit-learn (from -r requirements.txt (line 2))
+test	Install requirements	2026-11-16T10:46:17.6114075Z   Using cached scikit_learn-1.7.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+test	Install requirements	2026-11-16T10:46:17.6410788Z Collecting sentry-sdk<3.0.0,>=2.0.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.6431397Z   Using cached sentry_sdk-2.75.0-py3-none-any.whl.metadata (11 kB)
+test	Install requirements	2026-11-16T10:46:17.6956426Z Collecting setuptools==70.0.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.6968852Z   Using cached setuptools-70.0.0-py3-none-any.whl.metadata (5.9 kB)
+test	Install requirements	2026-11-16T10:46:17.7723349Z Collecting simplejson (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.7736452Z   Using cached simplejson-4.3.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.8 kB)
+test	Install requirements	2026-11-16T10:46:17.7781043Z Collecting six>=1.15.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.7791776Z   Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+test	Install requirements	2026-11-16T10:46:17.9910461Z Collecting sqlalchemy>2.0.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:17.9922924Z   Using cached sqlalchemy-2.1.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (9.7 kB)
+test	Install requirements	2026-11-16T10:46:18.1193967Z Collecting sqlglot[rs] (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.1206574Z   Using cached sqlglot-30.31.0-py3-none-any.whl.metadata (25 kB)
+test	Install requirements	2026-11-16T10:46:18.1271459Z Collecting terminado==0.17.1 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.1281564Z   Using cached terminado-0.17.1-py3-none-any.whl.metadata (5.9 kB)
+test	Install requirements	2026-11-16T10:46:18.1316474Z Collecting thefuzz==0.19.0 (from thefuzz[speedup]==0.19.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.1327102Z   Using cached thefuzz-0.19.0-py2.py3-none-any.whl.metadata (3.9 kB)
+test	Install requirements	2026-11-16T10:46:18.1600651Z Collecting tornado==6.4.2 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.1613236Z   Using cached tornado-6.4.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+test	Install requirements	2026-11-16T10:46:18.1694245Z Collecting typer==0.9.0 (from typer[all]==0.9.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.1704433Z   Using cached typer-0.9.0-py3-none-any.whl.metadata (14 kB)
+test	Install requirements	2026-11-16T10:46:18.1782307Z Collecting typing_extensions==4.11.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.1792254Z   Using cached typing_extensions-4.11.0-py3-none-any.whl.metadata (3.0 kB)
+test	Install requirements	2026-11-16T10:46:18.2068787Z Collecting watchdog==4.0.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.2079768Z   Using cached watchdog-4.0.0-py3-none-manylinux2014_x86_64.whl.metadata (37 kB)
+test	Install requirements	2026-11-16T10:46:18.2173922Z Collecting Werkzeug==3.0.3 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.2184898Z   Using cached werkzeug-3.0.3-py3-none-any.whl.metadata (3.7 kB)
+test	Install requirements	2026-11-16T10:46:18.2729163Z Collecting debugpy>=1.0 (from ipykernel->-r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:18.2740526Z   Using cached debugpy-1.8.22-cp312-cp312-manylinux_2_34_x86_64.whl.metadata (1.4 kB)
+test	Install requirements	2026-11-16T10:46:18.2787774Z Collecting matplotlib-inline>=0.1 (from ipykernel->-r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:18.2797613Z   Using cached matplotlib_inline-0.2.2-py3-none-any.whl.metadata (2.4 kB)
+test	Install requirements	2026-11-16T10:46:18.2853966Z Collecting nest-asyncio (from ipykernel->-r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:18.2863816Z   Using cached nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+test	Install requirements	2026-11-16T10:46:18.2931705Z Collecting packaging (from ipykernel->-r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:18.2941357Z   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+test	Install requirements	2026-11-16T10:46:18.4398333Z Collecting pyzmq>=17 (from ipykernel->-r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:18.4411234Z   Using cached pyzmq-27.3.0-cp312-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+test	Install requirements	2026-11-16T10:46:18.4488387Z Collecting traitlets>=5.1.0 (from ipykernel->-r requirements.txt (line 9))
+test	Install requirements	2026-11-16T10:46:18.4499356Z   Using cached traitlets-5.16.1-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:18.4585754Z Collecting aiohappyeyeballs>=2.3.0 (from aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.4596523Z   Using cached aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+test	Install requirements	2026-11-16T10:46:18.4630713Z Collecting aiosignal>=1.1.2 (from aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.4640353Z   Using cached aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+test	Install requirements	2026-11-16T10:46:18.4695313Z Collecting attrs>=17.3.0 (from aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.4705101Z   Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+test	Install requirements	2026-11-16T10:46:18.5108175Z Collecting frozenlist>=1.1.1 (from aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.5120308Z   Using cached frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+test	Install requirements	2026-11-16T10:46:18.7686203Z Collecting multidict<7.0,>=4.5 (from aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.7699208Z   Using cached multidict-6.9.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+test	Install requirements	2026-11-16T10:46:18.9401480Z Collecting yarl<2.0,>=1.0 (from aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:18.9415238Z   Using cached yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (111 kB)
+test	Install requirements	2026-11-16T10:46:19.0265444Z Collecting cffi>=1.12 (from cryptography==42.0.4->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0277157Z   Using cached cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+test	Install requirements	2026-11-16T10:46:19.0331238Z Collecting text-unidecode==1.3 (from Faker==4.14.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0340750Z   Using cached text_unidecode-1.3-py2.py3-none-any.whl.metadata (2.4 kB)
+test	Install requirements	2026-11-16T10:46:19.0391483Z Collecting gitdb<5,>=4.0.1 (from GitPython==3.1.62->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0401980Z   Using cached gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+test	Install requirements	2026-11-16T10:46:19.0472907Z Collecting altair<5.0.0,>=4.2.1 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0486085Z   Using cached altair-4.2.2-py3-none-any.whl.metadata (13 kB)
+test	Install requirements	2026-11-16T10:46:19.0552264Z Collecting colorama>=0.4.3 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0561866Z   Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+test	Install requirements	2026-11-16T10:46:19.0707102Z Collecting ipywidgets>=7.5.1 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0717006Z   Using cached ipywidgets-8.1.9-py3-none-any.whl.metadata (2.4 kB)
+test	Install requirements	2026-11-16T10:46:19.0782104Z Collecting jsonpatch>=1.22 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0791626Z   Using cached jsonpatch-1.47-py3-none-any.whl.metadata (4.9 kB)
+test	Install requirements	2026-11-16T10:46:19.0897566Z Collecting jsonschema>=2.5.1 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0907482Z   Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+test	Install requirements	2026-11-16T10:46:19.0985968Z Collecting makefun<2,>=1.7.0 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.0995592Z   Using cached makefun-1.16.0-py2.py3-none-any.whl.metadata (2.9 kB)
+test	Install requirements	2026-11-16T10:46:19.1146805Z Collecting marshmallow<4.0.0,>=3.7.1 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.1157316Z   Using cached marshmallow-3.26.2-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:19.1234227Z Collecting mistune>=0.8.4 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.1244201Z   Using cached mistune-3.4.0-py3-none-any.whl.metadata (2.1 kB)
+test	Install requirements	2026-11-16T10:46:19.2221080Z Collecting notebook>=6.4.10 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.2233916Z   Using cached notebook-7.6.5-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:19.2933479Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.2945633Z   Using cached pydantic-2.14.3-py3-none-any.whl.metadata (141 kB)
+test	Install requirements	2026-11-16T10:46:19.3097102Z Collecting pyparsing>=2.4 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.3107797Z   Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+test	Install requirements	2026-11-16T10:46:19.3961204Z Collecting scipy>=1.6.0 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.3972951Z   Using cached scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+test	Install requirements	2026-11-16T10:46:19.4187963Z Collecting tqdm>=4.59.0 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4201262Z   Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+test	Install requirements	2026-11-16T10:46:19.4295210Z Collecting tzlocal>=1.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4304866Z   Using cached tzlocal-5.4.5-py3-none-any.whl.metadata (7.7 kB)
+test	Install requirements	2026-11-16T10:46:19.4408486Z Collecting urllib3>=1.26 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4418591Z   Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+test	Install requirements	2026-11-16T10:46:19.4449383Z Collecting numpy>=1.22.0 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4460455Z   Using cached numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+test	Install requirements	2026-11-16T10:46:19.4618027Z Collecting backcall (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4627980Z   Using cached backcall-0.2.0-py2.py3-none-any.whl.metadata (2.0 kB)
+test	Install requirements	2026-11-16T10:46:19.4680543Z Collecting decorator (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4692499Z   Using cached decorator-5.3.1-py3-none-any.whl.metadata (3.9 kB)
+test	Install requirements	2026-11-16T10:46:19.4741551Z Collecting jedi>=0.16 (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4751128Z   Using cached jedi-0.20.1-py2.py3-none-any.whl.metadata (23 kB)
+test	Install requirements	2026-11-16T10:46:19.4808728Z Collecting pickleshare (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4818279Z   Using cached pickleshare-0.7.5-py2.py3-none-any.whl.metadata (1.5 kB)
+test	Install requirements	2026-11-16T10:46:19.4942516Z Collecting prompt-toolkit<3.1.0,>=3.0.30 (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.4952839Z   Using cached prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)
+test	Install requirements	2026-11-16T10:46:19.5034624Z Collecting pygments>=2.4.0 (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5045810Z   Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+test	Install requirements	2026-11-16T10:46:19.5085352Z Collecting stack-data (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5095041Z   Using cached stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+test	Install requirements	2026-11-16T10:46:19.5154430Z Collecting pexpect>4.3 (from ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5164124Z   Using cached pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+test	Install requirements	2026-11-16T10:46:19.5206869Z Collecting entrypoints (from jupyter_client==7.4.4->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5217128Z   Using cached entrypoints-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+test	Install requirements	2026-11-16T10:46:19.5286163Z Collecting jupyter-core>=4.9.2 (from jupyter_client==7.4.4->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5296549Z   Using cached jupyter_core-5.9.1-py3-none-any.whl.metadata (1.5 kB)
+test	Install requirements	2026-11-16T10:46:19.5435011Z Collecting anyio>=3.1.0 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5445122Z   Using cached anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+test	Install requirements	2026-11-16T10:46:19.5541016Z Collecting argon2-cffi>=21.1 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5551832Z   Using cached argon2_cffi-25.1.0-py3-none-any.whl.metadata (4.1 kB)
+test	Install requirements	2026-11-16T10:46:19.5611518Z Collecting jupyter-events>=0.9.0 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5632968Z   Using cached jupyter_events-0.12.1-py3-none-any.whl.metadata (5.8 kB)
+test	Install requirements	2026-11-16T10:46:19.5677249Z Collecting jupyter-server-terminals>=0.4.4 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5687209Z   Using cached jupyter_server_terminals-0.5.4-py3-none-any.whl.metadata (5.9 kB)
+test	Install requirements	2026-11-16T10:46:19.5794728Z Collecting nbconvert>=6.4.4 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5804929Z   Using cached nbconvert-7.17.2-py3-none-any.whl.metadata (8.4 kB)
+test	Install requirements	2026-11-16T10:46:19.5880418Z Collecting overrides>=5.0 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5890099Z   Using cached overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+test	Install requirements	2026-11-16T10:46:19.5954306Z Collecting prometheus-client>=0.9 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.5964124Z   Using cached prometheus_client-0.26.0-py3-none-any.whl.metadata (2.1 kB)
+test	Install requirements	2026-11-16T10:46:19.6017826Z Collecting send2trash>=1.8.2 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6027511Z   Using cached send2trash-2.2.0-py3-none-any.whl.metadata (4.1 kB)
+test	Install requirements	2026-11-16T10:46:19.6109868Z Collecting websocket-client>=1.7 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6119746Z   Using cached websocket_client-1.9.2-py3-none-any.whl.metadata (8.3 kB)
+test	Install requirements	2026-11-16T10:46:19.6239162Z Collecting pyasn1>=0.4.6 (from ldap3==2.9.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6248653Z   Using cached pyasn1-0.6.5-py3-none-any.whl.metadata (8.4 kB)
+test	Install requirements	2026-11-16T10:46:19.6387180Z Collecting pynacl>=1.5 (from paramiko==3.5.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6396904Z   Using cached pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl.metadata (10.0 kB)
+test	Install requirements	2026-11-16T10:46:19.6487326Z Collecting deprecated (from PyGithub==1.59.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6497865Z   Using cached deprecated-3.0.1-py3-none-any.whl.metadata (6.5 kB)
+test	Install requirements	2026-11-16T10:46:19.6584238Z Collecting ptyprocess (from terminado==0.17.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6594240Z   Using cached ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+test	Install requirements	2026-11-16T10:46:19.6659091Z Collecting python-levenshtein>=0.12 (from thefuzz[speedup]==0.19.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6668662Z   Using cached python_levenshtein-0.27.5-py3-none-any.whl.metadata (3.9 kB)
+test	Install requirements	2026-11-16T10:46:19.6757472Z Collecting shellingham<2.0.0,>=1.3.0 (from typer[all]==0.9.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6766995Z   Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+test	Install requirements	2026-11-16T10:46:19.6927852Z Collecting rich<14.0.0,>=10.11.0 (from typer[all]==0.9.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.6938413Z   Using cached rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+test	Install requirements	2026-11-16T10:46:19.7368135Z Collecting MarkupSafe>=2.1.1 (from Werkzeug==3.0.3->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.7379736Z   Using cached markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+test	Install requirements	2026-11-16T10:46:19.7444744Z Collecting threadpoolctl>=3.1.0 (from scikit-learn->-r requirements.txt (line 2))
+test	Install requirements	2026-11-16T10:46:19.7454807Z   Using cached threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+test	Install requirements	2026-11-16T10:46:19.7548470Z Collecting tzdata>=2022.7 (from pandas->-r requirements.txt (line 6))
+test	Install requirements	2026-11-16T10:46:19.7558395Z   Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+test	Install requirements	2026-11-16T10:46:19.7651342Z Collecting toolz (from altair<5.0.0,>=4.2.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.7670685Z   Using cached toolz-1.2.0-py3-none-any.whl.metadata (5.2 kB)
+test	Install requirements	2026-11-16T10:46:19.7725195Z Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->GitPython==3.1.62->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.7734821Z   Using cached smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+test	Install requirements	2026-11-16T10:46:19.7888135Z Collecting wcwidth>=0.1.4 (from prompt-toolkit<3.1.0,>=3.0.30->ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.7897980Z   Using cached wcwidth-0.9.4-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (23 kB)
+test	Install requirements	2026-11-16T10:46:19.9776514Z Collecting charset-normalizer<4,>=2 (from requests~=2.31.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.9789195Z   Using cached charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+test	Install requirements	2026-11-16T10:46:19.9867583Z Collecting idna<4,>=2.5 (from requests~=2.31.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.9877952Z   Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:19.9984105Z Collecting certifi>=2017.4.17 (from requests~=2.31.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:19.9994385Z   Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+test	Install requirements	2026-11-16T10:46:20.0082322Z Collecting markdown-it-py>=2.2.0 (from rich<14.0.0,>=10.11.0->typer[all]==0.9.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.0092317Z   Using cached markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
+test	Install requirements	2026-11-16T10:46:20.0646093Z Collecting propcache>=0.2.1 (from yarl<2.0,>=1.0->aiohttp==3.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.0657881Z   Using cached propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+test	Install requirements	2026-11-16T10:46:20.0715068Z Collecting iniconfig>=2 (from pytest->-r requirements.txt (line 3))
+test	Install requirements	2026-11-16T10:46:20.0725326Z   Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+test	Install requirements	2026-11-16T10:46:20.0772829Z Collecting pluggy<2,>=1.6 (from pytest->-r requirements.txt (line 3))
+test	Install requirements	2026-11-16T10:46:20.0782674Z   Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+test	Install requirements	2026-11-16T10:46:20.0840170Z Collecting snowflake-connector-python (from -r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.0850205Z   Using cached snowflake_connector_python-5.1.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (7.1 kB)
+test	Install requirements	2026-11-16T10:46:20.0874075Z INFO: pip is looking at multiple versions of snowflake-connector-python to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:20.0887065Z   Using cached snowflake_connector_python-5.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (7.1 kB)
+test	Install requirements	2026-11-16T10:46:20.0918491Z   Using cached snowflake_connector_python-4.8.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (103 kB)
+test	Install requirements	2026-11-16T10:46:20.1013667Z Collecting asn1crypto<2.0.0,>0.24.0 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.1023062Z   Using cached asn1crypto-1.5.1-py2.py3-none-any.whl.metadata (13 kB)
+test	Install requirements	2026-11-16T10:46:20.1042440Z Collecting snowflake-connector-python (from -r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.1052467Z   Using cached snowflake_connector_python-4.8.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (102 kB)
+test	Install requirements	2026-11-16T10:46:20.1120694Z   Using cached snowflake_connector_python-4.7.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (99 kB)
+test	Install requirements	2026-11-16T10:46:20.1185988Z   Using cached snowflake_connector_python-4.7.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (97 kB)
+test	Install requirements	2026-11-16T10:46:20.1249355Z   Using cached snowflake_connector_python-4.7.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (96 kB)
+test	Install requirements	2026-11-16T10:46:20.1302949Z INFO: pip is still looking at multiple versions of snowflake-connector-python to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:20.1315639Z   Using cached snowflake_connector_python-4.7.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (91 kB)
+test	Install requirements	2026-11-16T10:46:20.1375114Z   Using cached snowflake_connector_python-4.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (89 kB)
+test	Install requirements	2026-11-16T10:46:20.1435803Z   Using cached snowflake_connector_python-4.6.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (85 kB)
+test	Install requirements	2026-11-16T10:46:20.1493912Z   Using cached snowflake_connector_python-4.5.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (84 kB)
+test	Install requirements	2026-11-16T10:46:20.1552556Z   Using cached snowflake_connector_python-4.4.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (81 kB)
+test	Install requirements	2026-11-16T10:46:20.1599651Z INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+test	Install requirements	2026-11-16T10:46:20.1614510Z   Using cached snowflake_connector_python-4.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (80 kB)
+test	Install requirements	2026-11-16T10:46:20.1679805Z   Using cached snowflake_connector_python-4.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (78 kB)
+test	Install requirements	2026-11-16T10:46:20.1735777Z   Using cached snowflake_connector_python-4.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (78 kB)
+test	Install requirements	2026-11-16T10:46:20.1792284Z   Using cached snowflake_connector_python-4.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (77 kB)
+test	Install requirements	2026-11-16T10:46:20.1897460Z Collecting pyOpenSSL<26.0.0,>=22.0.0 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.1907253Z   Using cached pyopenssl-25.3.0-py3-none-any.whl.metadata (17 kB)
+test	Install requirements	2026-11-16T10:46:20.2062543Z Collecting filelock<4,>=3.5 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.2072675Z   Using cached filelock-3.32.7-py3-none-any.whl.metadata (2.0 kB)
+test	Install requirements	2026-11-16T10:46:20.2114321Z Collecting sortedcontainers>=2.4.0 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.2123748Z   Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:20.2228897Z Collecting platformdirs<5.0.0,>=2.6.0 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.2238641Z   Using cached platformdirs-4.14.5-py3-none-any.whl.metadata (5.7 kB)
+test	Install requirements	2026-11-16T10:46:20.2310905Z Collecting tomlkit (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.2320671Z   Using cached tomlkit-0.15.2-py3-none-any.whl.metadata (3.4 kB)
+test	Install requirements	2026-11-16T10:46:20.3851082Z Collecting boto3>=1.24 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.4221314Z   Using cached boto3-1.44.3-py3-none-any.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:20.7181766Z Collecting botocore>=1.24 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.7194459Z   Using cached botocore-1.44.3-py3-none-any.whl.metadata (5.6 kB)
+test	Install requirements	2026-11-16T10:46:20.7261093Z Collecting pyOpenSSL<26.0.0,>=22.0.0 (from snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.7271736Z   Using cached pyopenssl-25.2.0-py3-none-any.whl.metadata (17 kB)
+test	Install requirements	2026-11-16T10:46:20.7300459Z INFO: pip is looking at multiple versions of pyopenssl to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:20.7313771Z   Using cached pyopenssl-25.1.0-py3-none-any.whl.metadata (17 kB)
+test	Install requirements	2026-11-16T10:46:20.7398366Z Collecting fastjsonschema>=2.15 (from nbformat->-r requirements.txt (line 7))
+test	Install requirements	2026-11-16T10:46:20.7408277Z   Using cached fastjsonschema-2.22.3-py3-none-any.whl.metadata (2.1 kB)
+test	Install requirements	2026-11-16T10:46:20.7611907Z Collecting Mako (from alembic>=1.7.5->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.7622337Z   Using cached mako-1.4.3-py3-none-any.whl.metadata (2.9 kB)
+test	Install requirements	2026-11-16T10:46:20.7644052Z Collecting alembic>=1.7.5 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.7653597Z   Using cached alembic-1.20.0-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.7670730Z INFO: pip is looking at multiple versions of alembic to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:20.7683648Z   Using cached alembic-1.19.2-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.7745942Z   Using cached alembic-1.19.1-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.7772773Z   Using cached alembic-1.19.0-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.7799035Z   Using cached alembic-1.18.5-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.7829020Z   Using cached alembic-1.18.4-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.7855698Z   Using cached alembic-1.18.3-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.7874089Z INFO: pip is still looking at multiple versions of alembic to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:20.7886809Z   Using cached alembic-1.18.2-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.7950748Z   Using cached alembic-1.18.1-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.7977633Z   Using cached alembic-1.18.0-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.8004450Z   Using cached alembic-1.17.2-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.8031122Z   Using cached alembic-1.17.1-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.8048915Z INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+test	Install requirements	2026-11-16T10:46:20.8061744Z   Using cached alembic-1.17.0-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.8088344Z   Using cached alembic-1.16.5-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8115275Z   Using cached alembic-1.16.4-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8141658Z   Using cached alembic-1.16.3-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8168221Z   Using cached alembic-1.16.2-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8195217Z   Using cached alembic-1.16.1-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8225831Z   Using cached alembic-1.16.0-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8253953Z   Using cached alembic-1.15.2-py3-none-any.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:20.8283740Z   Using cached alembic-1.15.1-py3-none-any.whl.metadata (7.2 kB)
+test	Install requirements	2026-11-16T10:46:20.8310563Z   Using cached alembic-1.14.1-py3-none-any.whl.metadata (7.4 kB)
+test	Install requirements	2026-11-16T10:46:20.8413699Z Collecting anyio>=3.1.0 (from jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.8422346Z   Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+test	Install requirements	2026-11-16T10:46:20.8439570Z INFO: pip is looking at multiple versions of anyio to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:20.8452837Z   Using cached anyio-4.15.0-py3-none-any.whl.metadata (4.7 kB)
+test	Install requirements	2026-11-16T10:46:20.8480138Z   Using cached anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+test	Install requirements	2026-11-16T10:46:20.8574414Z Collecting argon2-cffi-bindings (from argon2-cffi>=21.1->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.8584434Z   Using cached argon2_cffi_bindings-26.2.0-cp310-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (7.6 kB)
+test	Install requirements	2026-11-16T10:46:20.8686113Z Collecting jmespath<2.0.0,>=0.7.1 (from boto3>=1.24->snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.8695793Z   Using cached jmespath-1.1.0-py3-none-any.whl.metadata (7.6 kB)
+test	Install requirements	2026-11-16T10:46:20.8761028Z Collecting s3transfer<0.20.0,>=0.19.0 (from boto3>=1.24->snowflake-connector-python->-r requirements.txt (line 5))
+test	Install requirements	2026-11-16T10:46:20.8771910Z   Using cached s3transfer-0.19.3-py3-none-any.whl.metadata (1.7 kB)
+test	Install requirements	2026-11-16T10:46:20.8917625Z Collecting pycparser (from cffi>=1.12->cryptography==42.0.4->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.8927456Z   Using cached pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+test	Install requirements	2026-11-16T10:46:20.8997836Z Collecting cloudpickle>=3.0.0 (from dask>=2022.2.0->dask[dataframe]>=2022.2.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9008377Z   Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+test	Install requirements	2026-11-16T10:46:20.9105856Z Collecting fsspec>=2021.09.0 (from dask>=2022.2.0->dask[dataframe]>=2022.2.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9115774Z   Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:20.9240584Z Collecting partd>=1.4.0 (from dask>=2022.2.0->dask[dataframe]>=2022.2.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9250884Z   Using cached partd-1.4.2-py3-none-any.whl.metadata (4.6 kB)
+test	Install requirements	2026-11-16T10:46:20.9420523Z Collecting httpcore==1.* (from httpx>=0.27.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9430553Z   Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+test	Install requirements	2026-11-16T10:46:20.9489320Z Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.27.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9498699Z   Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+test	Install requirements	2026-11-16T10:46:20.9565121Z Collecting comm>=0.1.3 (from ipywidgets>=7.5.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9574750Z   Using cached comm-0.2.3-py3-none-any.whl.metadata (3.7 kB)
+test	Install requirements	2026-11-16T10:46:20.9779375Z Collecting widgetsnbextension~=4.0.16 (from ipywidgets>=7.5.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9790152Z   Using cached widgetsnbextension-4.0.16-py3-none-any.whl.metadata (1.6 kB)
+test	Install requirements	2026-11-16T10:46:20.9860213Z Collecting jupyterlab_widgets~=3.0.17 (from ipywidgets>=7.5.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9872906Z   Using cached jupyterlab_widgets-3.0.17-py3-none-any.whl.metadata (20 kB)
+test	Install requirements	2026-11-16T10:46:20.9987682Z Collecting parso<0.9.0,>=0.8.7 (from jedi>=0.16->ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:20.9997760Z   Using cached parso-0.8.7-py2.py3-none-any.whl.metadata (8.2 kB)
+test	Install requirements	2026-11-16T10:46:21.0106770Z Collecting jsonpointer>=3.8 (from jsonpatch>=1.22->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.0116686Z   Using cached jsonpointer-3.12-py3-none-any.whl.metadata (2.7 kB)
+test	Install requirements	2026-11-16T10:46:21.0187502Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.5.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.0197311Z   Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+test	Install requirements	2026-11-16T10:46:21.0291916Z Collecting referencing>=0.28.4 (from jsonschema>=2.5.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.0301764Z   Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+test	Install requirements	2026-11-16T10:46:21.2040869Z Collecting rpds-py>=0.25.0 (from jsonschema>=2.5.1->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2052530Z   Using cached rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+test	Install requirements	2026-11-16T10:46:21.2237008Z Collecting python-json-logger>=2.0.4 (from jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2247104Z   Using cached python_json_logger-4.2.0-py3-none-any.whl.metadata (2.9 kB)
+test	Install requirements	2026-11-16T10:46:21.2281933Z Collecting rfc3339-validator (from jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2291632Z   Using cached rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+test	Install requirements	2026-11-16T10:46:21.2317185Z Collecting rfc3986-validator>=0.1.1 (from jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2326497Z   Using cached rfc3986_validator-0.1.1-py2.py3-none-any.whl.metadata (1.7 kB)
+test	Install requirements	2026-11-16T10:46:21.2385708Z Collecting fqdn (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2401116Z   Using cached fqdn-1.6.0-py3-none-any.whl.metadata (9.4 kB)
+test	Install requirements	2026-11-16T10:46:21.2427189Z Collecting isoduration (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2450673Z   Using cached isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+test	Install requirements	2026-11-16T10:46:21.2478547Z Collecting rfc3987-syntax>=1.1.0 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2487773Z   Using cached rfc3987_syntax-1.1.0-py3-none-any.whl.metadata (7.7 kB)
+test	Install requirements	2026-11-16T10:46:21.2520227Z Collecting uri-template (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2529278Z   Using cached uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+test	Install requirements	2026-11-16T10:46:21.2576067Z Collecting webcolors>=24.6.0 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2585799Z   Using cached webcolors-25.10.0-py3-none-any.whl.metadata (2.2 kB)
+test	Install requirements	2026-11-16T10:46:21.2639468Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14.0.0,>=10.11.0->typer[all]==0.9.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2649910Z   Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+test	Install requirements	2026-11-16T10:46:21.2767040Z Collecting beautifulsoup4 (from nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2776343Z   Using cached beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+test	Install requirements	2026-11-16T10:46:21.2841290Z Collecting bleach!=5.0.0 (from bleach[css]!=5.0.0->nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2851516Z   Using cached bleach-6.4.0-py3-none-any.whl.metadata (32 kB)
+test	Install requirements	2026-11-16T10:46:21.2910252Z Collecting defusedxml (from nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2919486Z   Using cached defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+test	Install requirements	2026-11-16T10:46:21.2976090Z Collecting jupyterlab-pygments (from nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.2985588Z   Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+test	Install requirements	2026-11-16T10:46:21.3050084Z Collecting pandocfilters>=1.4.1 (from nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3059485Z   Using cached pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+test	Install requirements	2026-11-16T10:46:21.3125191Z Collecting webencodings (from bleach!=5.0.0->bleach[css]!=5.0.0->nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3134764Z   Using cached webencodings-0.6.1-py3-none-any.whl.metadata (3.4 kB)
+test	Install requirements	2026-11-16T10:46:21.3185807Z Collecting tinycss2>=1.1.0 (from bleach[css]!=5.0.0->nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3195100Z   Using cached tinycss2-1.5.1-py3-none-any.whl.metadata (3.0 kB)
+test	Install requirements	2026-11-16T10:46:21.3261380Z Collecting jupyter-builder<2,>=1.0.2 (from notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3270890Z   Using cached jupyter_builder-1.3.0-py3-none-any.whl.metadata (8.5 kB)
+test	Install requirements	2026-11-16T10:46:21.3300067Z Collecting notebook>=6.4.10 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3309618Z   Using cached notebook-7.6.4-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.3333926Z INFO: pip is looking at multiple versions of notebook to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:21.3346856Z   Using cached notebook-7.6.3-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.3379857Z   Using cached notebook-7.6.2-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.3412928Z   Using cached notebook-7.6.1-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.3446520Z   Using cached notebook-7.6.0-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.3479534Z   Using cached notebook-7.5.8-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.3589399Z Collecting jupyterlab-server<3,>=2.28.0 (from notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3598883Z   Using cached jupyterlab_server-2.28.1-py3-none-any.whl.metadata (5.8 kB)
+test	Install requirements	2026-11-16T10:46:21.3986655Z Collecting jupyterlab<4.6,>=4.5.11 (from notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.3996934Z   Using cached jupyterlab-4.5.11-py3-none-any.whl.metadata (16 kB)
+test	Install requirements	2026-11-16T10:46:21.4062573Z Collecting notebook-shim<0.3,>=0.2 (from notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4072513Z   Using cached notebook_shim-0.2.4-py3-none-any.whl.metadata (4.0 kB)
+test	Install requirements	2026-11-16T10:46:21.4134787Z Collecting async-lru>=1.0.0 (from jupyterlab<4.6,>=4.5.11->notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4144275Z   Using cached async_lru-2.4.0-py3-none-any.whl.metadata (10 kB)
+test	Install requirements	2026-11-16T10:46:21.4207395Z Collecting jupyter-lsp>=2.0.0 (from jupyterlab<4.6,>=4.5.11->notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4216828Z   Using cached jupyter_lsp-2.3.1-py3-none-any.whl.metadata (1.8 kB)
+test	Install requirements	2026-11-16T10:46:21.4310173Z Collecting babel>=2.10 (from jupyterlab-server<3,>=2.28.0->notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4319612Z   Using cached babel-2.18.0-py3-none-any.whl.metadata (2.2 kB)
+test	Install requirements	2026-11-16T10:46:21.4393314Z Collecting json5>=0.9.0 (from jupyterlab-server<3,>=2.28.0->notebook>=6.4.10->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4402900Z   Using cached json5-0.17.3-py3-none-any.whl.metadata (27 kB)
+test	Install requirements	2026-11-16T10:46:21.4573052Z Collecting locket (from partd>=1.4.0->dask>=2022.2.0->dask[dataframe]>=2022.2.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4582712Z   Using cached locket-1.0.0-py2.py3-none-any.whl.metadata (2.8 kB)
+test	Install requirements	2026-11-16T10:46:21.4722338Z Collecting annotated-types>=0.6.0 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:21.4731978Z   Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+test	Install requirements	2026-11-16T10:46:22.0918120Z Collecting pydantic-core==2.50.4 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.0930809Z   Using cached pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.0956172Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.0967664Z   Using cached pydantic-2.14.2-py3-none-any.whl.metadata (137 kB)
+test	Install requirements	2026-11-16T10:46:22.1027611Z Collecting pydantic-core==2.50.2 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1038101Z   Using cached pydantic_core-2.50.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.5 kB)
+test	Install requirements	2026-11-16T10:46:22.1053825Z INFO: pip is looking at multiple versions of pydantic to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:22.1060141Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1071200Z   Using cached pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+test	Install requirements	2026-11-16T10:46:22.1128725Z Collecting pydantic-core==2.50.1 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1138582Z   Using cached pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+test	Install requirements	2026-11-16T10:46:22.1160329Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1169819Z   Using cached pydantic-2.14.0-py3-none-any.whl.metadata (131 kB)
+test	Install requirements	2026-11-16T10:46:22.1222872Z Collecting pydantic-core==2.50.0 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1232409Z   Using cached pydantic_core-2.50.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+test	Install requirements	2026-11-16T10:46:22.1250944Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1260350Z   Using cached pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+test	Install requirements	2026-11-16T10:46:22.1306937Z Collecting pydantic-core==2.46.5 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1316575Z   Using cached pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.1338008Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1347162Z   Using cached pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)
+test	Install requirements	2026-11-16T10:46:22.1396662Z Collecting pydantic-core==2.46.4 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1406215Z   Using cached pydantic_core-2.46.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.1426487Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1436005Z   Using cached pydantic-2.13.3-py3-none-any.whl.metadata (108 kB)
+test	Install requirements	2026-11-16T10:46:22.1480815Z Collecting pydantic-core==2.46.3 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1490597Z   Using cached pydantic_core-2.46.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.1509215Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1518453Z   Using cached pydantic-2.13.2-py3-none-any.whl.metadata (108 kB)
+test	Install requirements	2026-11-16T10:46:22.1563206Z Collecting pydantic-core==2.46.2 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1573297Z   Using cached pydantic_core-2.46.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.1588569Z INFO: pip is still looking at multiple versions of pydantic to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:22.1594659Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1604577Z   Using cached pydantic-2.13.1-py3-none-any.whl.metadata (108 kB)
+test	Install requirements	2026-11-16T10:46:22.1649139Z Collecting pydantic-core==2.46.1 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1658848Z   Using cached pydantic_core-2.46.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.1677601Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1688467Z   Using cached pydantic-2.13.0-py3-none-any.whl.metadata (107 kB)
+test	Install requirements	2026-11-16T10:46:22.1735017Z Collecting pydantic-core==2.46.0 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1744724Z   Using cached pydantic_core-2.46.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.1763719Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1773112Z   Using cached pydantic-2.12.5-py3-none-any.whl.metadata (90 kB)
+test	Install requirements	2026-11-16T10:46:22.1813861Z Collecting pydantic-core==2.41.5 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1823561Z   Using cached pydantic_core-2.41.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:22.1844056Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1853943Z   Using cached pydantic-2.12.4-py3-none-any.whl.metadata (89 kB)
+test	Install requirements	2026-11-16T10:46:22.1899081Z   Using cached pydantic-2.12.3-py3-none-any.whl.metadata (87 kB)
+test	Install requirements	2026-11-16T10:46:22.1939328Z Collecting pydantic-core==2.41.4 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1949161Z   Using cached pydantic_core-2.41.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:22.1966887Z INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+test	Install requirements	2026-11-16T10:46:22.1972351Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.1990945Z   Using cached pydantic-2.12.2-py3-none-any.whl.metadata (85 kB)
+test	Install requirements	2026-11-16T10:46:22.2034645Z   Using cached pydantic-2.12.0-py3-none-any.whl.metadata (83 kB)
+test	Install requirements	2026-11-16T10:46:22.2069758Z Collecting pydantic-core==2.41.1 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2079155Z   Using cached pydantic_core-2.41.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+test	Install requirements	2026-11-16T10:46:22.2098345Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2107722Z   Using cached pydantic-2.11.10-py3-none-any.whl.metadata (68 kB)
+test	Install requirements	2026-11-16T10:46:22.2148209Z Collecting pydantic-core==2.33.2 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2157705Z   Using cached pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+test	Install requirements	2026-11-16T10:46:22.2179763Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2210712Z   Using cached pydantic-2.11.9-py3-none-any.whl.metadata (68 kB)
+test	Install requirements	2026-11-16T10:46:22.2244948Z   Using cached pydantic-2.11.8-py3-none-any.whl.metadata (68 kB)
+test	Install requirements	2026-11-16T10:46:22.2285420Z   Using cached pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+test	Install requirements	2026-11-16T10:46:22.2325472Z   Using cached pydantic-2.11.6-py3-none-any.whl.metadata (67 kB)
+test	Install requirements	2026-11-16T10:46:22.2365458Z   Using cached pydantic-2.11.5-py3-none-any.whl.metadata (67 kB)
+test	Install requirements	2026-11-16T10:46:22.2405431Z   Using cached pydantic-2.11.4-py3-none-any.whl.metadata (66 kB)
+test	Install requirements	2026-11-16T10:46:22.2449077Z   Using cached pydantic-2.11.3-py3-none-any.whl.metadata (65 kB)
+test	Install requirements	2026-11-16T10:46:22.2484641Z Collecting pydantic-core==2.33.1 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2494132Z   Using cached pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+test	Install requirements	2026-11-16T10:46:22.2513307Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2523035Z   Using cached pydantic-2.11.2-py3-none-any.whl.metadata (64 kB)
+test	Install requirements	2026-11-16T10:46:22.2562939Z   Using cached pydantic-2.11.1-py3-none-any.whl.metadata (63 kB)
+test	Install requirements	2026-11-16T10:46:22.2598660Z Collecting pydantic-core==2.33.0 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2608397Z   Using cached pydantic_core-2.33.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+test	Install requirements	2026-11-16T10:46:22.2627335Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2636945Z   Using cached pydantic-2.11.0-py3-none-any.whl.metadata (63 kB)
+test	Install requirements	2026-11-16T10:46:22.2674282Z Collecting pyairtable>=2.3.3 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2684267Z   Using cached pyairtable-3.5.0.post1-py2.py3-none-any.whl.metadata (4.8 kB)
+test	Install requirements	2026-11-16T10:46:22.2796762Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2807094Z   Using cached pydantic-2.10.6-py3-none-any.whl.metadata (30 kB)
+test	Install requirements	2026-11-16T10:46:22.2842120Z Collecting pydantic-core==2.27.2 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2852177Z   Using cached pydantic_core-2.27.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.2872137Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.2881869Z   Using cached pydantic-2.10.5-py3-none-any.whl.metadata (30 kB)
+test	Install requirements	2026-11-16T10:46:22.2916757Z   Using cached pydantic-2.10.4-py3-none-any.whl.metadata (29 kB)
+test	Install requirements	2026-11-16T10:46:22.2949314Z   Using cached pydantic-2.10.3-py3-none-any.whl.metadata (172 kB)
+test	Install requirements	2026-11-16T10:46:22.3031034Z Collecting pydantic-core==2.27.1 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.3032381Z   Using cached pydantic_core-2.27.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.3061050Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.3062223Z   Using cached pydantic-2.10.2-py3-none-any.whl.metadata (170 kB)
+test	Install requirements	2026-11-16T10:46:22.3135660Z   Using cached pydantic-2.10.1-py3-none-any.whl.metadata (169 kB)
+test	Install requirements	2026-11-16T10:46:22.3210110Z   Using cached pydantic-2.10.0-py3-none-any.whl.metadata (167 kB)
+test	Install requirements	2026-11-16T10:46:22.3281418Z Collecting pydantic-core==2.27.0 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.3291568Z   Using cached pydantic_core-2.27.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.3311327Z Collecting pydantic>=1.9.2 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.3321162Z   Using cached pydantic-2.9.2-py3-none-any.whl.metadata (149 kB)
+test	Install requirements	2026-11-16T10:46:22.3390191Z Collecting pydantic-core==2.23.4 (from pydantic>=1.9.2->great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.3400462Z   Using cached pydantic_core-2.23.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test	Install requirements	2026-11-16T10:46:22.3558613Z Collecting pyairtable>=2.3.3 (from mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.3569247Z   Using cached pyairtable-3.5.0-py2.py3-none-any.whl.metadata (4.8 kB)
+test	Install requirements	2026-11-16T10:46:22.4701286Z Collecting Levenshtein==0.27.5 (from python-levenshtein>=0.12->thefuzz[speedup]==0.19.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.4720825Z   Using cached levenshtein-0.27.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.7 kB)
+test	Install requirements	2026-11-16T10:46:22.9540729Z Collecting rapidfuzz<4.0.0,>=3.9.0 (from Levenshtein==0.27.5->python-levenshtein>=0.12->thefuzz[speedup]==0.19.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.9552408Z   Using cached rapidfuzz-3.14.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+test	Install requirements	2026-11-16T10:46:22.9698063Z Collecting lark>=1.2.2 (from rfc3987-syntax>=1.1.0->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.9720672Z   Using cached lark-1.3.1-py3-none-any.whl.metadata (1.8 kB)
+test	Install requirements	2026-11-16T10:46:22.9764488Z Collecting scipy>=1.6.0 (from great-expectations==0.18.12->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:22.9774554Z   Using cached scipy-1.18.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+test	Install requirements	2026-11-16T10:46:22.9866106Z INFO: pip is looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+test	Install requirements	2026-11-16T10:46:22.9879343Z   Using cached scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+test	Install requirements	2026-11-16T10:46:23.0256291Z Collecting soupsieve>=1.6.1 (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.0268526Z   Using cached soupsieve-4.1.1-py3-none-any.whl.metadata (4.4 kB)
+test	Install requirements	2026-11-16T10:46:23.2737626Z Collecting wrapt<3,>=1.16 (from deprecated->PyGithub==1.59.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.2749375Z   Using cached wrapt-2.5.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (7.6 kB)
+test	Install requirements	2026-11-16T10:46:23.2860710Z Collecting arrow>=0.15.0 (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server==2.14.1->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.2869777Z   Using cached arrow-1.4.0-py3-none-any.whl.metadata (7.7 kB)
+test	Install requirements	2026-11-16T10:46:23.3588572Z Collecting sqlglotrs==0.13.0 (from sqlglot[rs]->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.3600335Z   Using cached sqlglotrs-0.13.0-py3-none-any.whl.metadata (291 bytes)
+test	Install requirements	2026-11-16T10:46:23.3736204Z Collecting sqlglotc==30.31.0 (from sqlglot[rs]->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.3746256Z   Using cached sqlglotc-30.31.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (515 bytes)
+test	Install requirements	2026-11-16T10:46:23.3838446Z Collecting executing>=1.2.0 (from stack-data->ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.3859428Z   Using cached executing-2.3.0-py3-none-any.whl.metadata (9.1 kB)
+test	Install requirements	2026-11-16T10:46:23.3910889Z Collecting asttokens>=2.1.0 (from stack-data->ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.3915961Z   Using cached asttokens-3.0.2-py3-none-any.whl.metadata (5.7 kB)
+test	Install requirements	2026-11-16T10:46:23.3948772Z Collecting pure-eval (from stack-data->ipython==8.10.0->mage-ai==0.9.80->-r requirements.txt (line 1))
+test	Install requirements	2026-11-16T10:46:23.3958778Z   Using cached pure_eval-0.2.4-py3-none-any.whl.metadata (6.4 kB)
+test	Install requirements	2026-11-16T10:46:23.4066329Z Using cached mage_ai-0.9.80-py3-none-any.whl (40.0 MB)
+test	Install requirements	2026-11-16T10:46:23.4205085Z Using cached ipykernel-6.15.0-py3-none-any.whl (133 kB)
+test	Install requirements	2026-11-16T10:46:23.4215203Z Using cached aiofiles-22.1.0-py3-none-any.whl (14 kB)
+test	Install requirements	2026-11-16T10:46:23.4224799Z Using cached aiohttp-3.10.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+test	Install requirements	2026-11-16T10:46:23.4237785Z Using cached bcrypt-4.0.1-cp36-abi3-manylinux_2_28_x86_64.whl (593 kB)
+test	Install requirements	2026-11-16T10:46:23.4248374Z Using cached cron_converter-1.2.1-py3-none-any.whl (13 kB)
+test	Install requirements	2026-11-16T10:46:23.4257674Z Using cached cryptography-42.0.4-cp39-abi3-manylinux_2_28_x86_64.whl (4.6 MB)
+test	Install requirements	2026-11-16T10:46:23.4280676Z Using cached datadog-0.44.0-py2.py3-none-any.whl (111 kB)
+test	Install requirements	2026-11-16T10:46:23.4290086Z Using cached Faker-4.14.0-py3-none-any.whl (1.1 MB)
+test	Install requirements	2026-11-16T10:46:23.4302463Z Using cached freezegun-1.2.2-py3-none-any.whl (17 kB)
+test	Install requirements	2026-11-16T10:46:23.4311686Z Using cached gitpython-3.1.62-py3-none-any.whl (222 kB)
+test	Install requirements	2026-11-16T10:46:23.4321329Z Using cached great_expectations-0.18.12-py3-none-any.whl (5.4 MB)
+test	Install requirements	2026-11-16T10:46:23.4344980Z Using cached ruamel.yaml-0.17.17-py3-none-any.whl (109 kB)
+test	Install requirements	2026-11-16T10:46:23.4354622Z Using cached inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+test	Install requirements	2026-11-16T10:46:23.4363654Z Using cached ipython-8.10.0-py3-none-any.whl (784 kB)
+test	Install requirements	2026-11-16T10:46:23.4374947Z Using cached jupyter_client-7.4.4-py3-none-any.whl (132 kB)
+test	Install requirements	2026-11-16T10:46:23.4384486Z Using cached jupyter_server-2.14.1-py3-none-any.whl (383 kB)
+test	Install requirements	2026-11-16T10:46:23.4394716Z Using cached ldap3-2.9.1-py2.py3-none-any.whl (432 kB)
+test	Install requirements	2026-11-16T10:46:23.4405027Z Using cached paramiko-3.5.1-py3-none-any.whl (227 kB)
+test	Install requirements	2026-11-16T10:46:23.4414916Z Using cached pillow-10.3.0-cp312-cp312-manylinux_2_28_x86_64.whl (4.5 MB)
+test	Install requirements	2026-11-16T10:46:23.4437632Z Using cached polars-1.30.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.3 MB)
+test	Install requirements	2026-11-16T10:46:23.4545809Z Using cached psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (288 kB)
+test	Install requirements	2026-11-16T10:46:23.4555920Z Using cached PyGithub-1.59.0-py3-none-any.whl (342 kB)
+test	Install requirements	2026-11-16T10:46:23.4566210Z Using cached PyJWT-2.6.0-py3-none-any.whl (20 kB)
+test	Install requirements	2026-11-16T10:46:23.4575399Z Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+test	Install requirements	2026-11-16T10:46:23.4585218Z Using cached setuptools-70.0.0-py3-none-any.whl (863 kB)
+test	Install requirements	2026-11-16T10:46:23.4596629Z Using cached terminado-0.17.1-py3-none-any.whl (17 kB)
+test	Install requirements	2026-11-16T10:46:23.4605815Z Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+test	Install requirements	2026-11-16T10:46:23.4615020Z Using cached thefuzz-0.19.0-py2.py3-none-any.whl (17 kB)
+test	Install requirements	2026-11-16T10:46:23.4624797Z Using cached tornado-6.4.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (437 kB)
+test	Install requirements	2026-11-16T10:46:23.4634702Z Using cached typer-0.9.0-py3-none-any.whl (45 kB)
+test	Install requirements	2026-11-16T10:46:23.4644755Z Using cached typing_extensions-4.11.0-py3-none-any.whl (34 kB)
+test	Install requirements	2026-11-16T10:46:23.4654565Z Using cached watchdog-4.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+test	Install requirements	2026-11-16T10:46:23.4663745Z Using cached werkzeug-3.0.3-py3-none-any.whl (227 kB)
+test	Install requirements	2026-11-16T10:46:23.4673826Z Using cached scikit_learn-1.7.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.5 MB)
+test	Install requirements	2026-11-16T10:46:23.4710468Z Using cached pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.4 MB)
+test	Install requirements	2026-11-16T10:46:23.4752032Z Using cached altair-4.2.2-py3-none-any.whl (813 kB)
+test	Install requirements	2026-11-16T10:46:23.4763557Z Using cached click-8.1.8-py3-none-any.whl (98 kB)
+test	Install requirements	2026-11-16T10:46:23.4772946Z Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+test	Install requirements	2026-11-16T10:46:23.4782079Z Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+test	Install requirements	2026-11-16T10:46:23.4791251Z Using cached itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+test	Install requirements	2026-11-16T10:46:23.4800278Z Using cached makefun-1.16.0-py2.py3-none-any.whl (22 kB)
+test	Install requirements	2026-11-16T10:46:23.4809326Z Using cached marshmallow-3.26.2-py3-none-any.whl (50 kB)
+test	Install requirements	2026-11-16T10:46:23.4818691Z Using cached multidict-6.9.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (336 kB)
+test	Install requirements	2026-11-16T10:46:23.4828570Z Using cached numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+test	Install requirements	2026-11-16T10:46:23.4892338Z Using cached prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
+test	Install requirements	2026-11-16T10:46:23.4903006Z Using cached protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+test	Install requirements	2026-11-16T10:46:23.4913046Z Using cached pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl (50.1 MB)
+test	Install requirements	2026-11-16T10:46:23.5057015Z Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+test	Install requirements	2026-11-16T10:46:23.5068142Z Using cached redis-5.0.8-py3-none-any.whl (255 kB)
+test	Install requirements	2026-11-16T10:46:23.5077986Z Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+test	Install requirements	2026-11-16T10:46:23.5087664Z Using cached charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
+test	Install requirements	2026-11-16T10:46:23.5097190Z Using cached idna-3.20-py3-none-any.whl (69 kB)
+test	Install requirements	2026-11-16T10:46:23.5106420Z Using cached rich-13.9.4-py3-none-any.whl (242 kB)
+test	Install requirements	2026-11-16T10:46:23.5115881Z Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+test	Install requirements	2026-11-16T10:46:23.5128548Z Using cached sentry_sdk-2.75.0-py3-none-any.whl (555 kB)
+test	Install requirements	2026-11-16T10:46:23.5139084Z Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+test	Install requirements	2026-11-16T10:46:23.5147963Z Using cached smmap-5.0.3-py3-none-any.whl (24 kB)
+test	Install requirements	2026-11-16T10:46:23.5157327Z Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+test	Install requirements	2026-11-16T10:46:23.5167260Z Using cached yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+test	Install requirements	2026-11-16T10:46:23.5176788Z Using cached pytest-9.2.0-py3-none-any.whl (411 kB)
+test	Install requirements	2026-11-16T10:46:23.5186974Z Using cached pluggy-1.7.0-py3-none-any.whl (27 kB)
+test	Install requirements	2026-11-16T10:46:23.5196156Z Using cached pika-1.4.4-py3-none-any.whl (165 kB)
+test	Install requirements	2026-11-16T10:46:23.5205851Z Using cached snowflake_connector_python-4.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.7 MB)
+test	Install requirements	2026-11-16T10:46:23.5223584Z Using cached asn1crypto-1.5.1-py2.py3-none-any.whl (105 kB)
+test	Install requirements	2026-11-16T10:46:23.5233297Z Using cached filelock-3.32.7-py3-none-any.whl (100 kB)
+test	Install requirements	2026-11-16T10:46:23.5242868Z Using cached platformdirs-4.14.5-py3-none-any.whl (35 kB)
+test	Install requirements	2026-11-16T10:46:23.5252012Z Using cached pyopenssl-25.1.0-py3-none-any.whl (56 kB)
+test	Install requirements	2026-11-16T10:46:23.5261095Z Using cached nbformat-5.11.1-py3-none-any.whl (79 kB)
+test	Install requirements	2026-11-16T10:46:23.5270353Z Using cached nbclient-0.11.0-py3-none-any.whl (25 kB)
+test	Install requirements	2026-11-16T10:46:23.5279801Z Using cached aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+test	Install requirements	2026-11-16T10:46:23.5288976Z Using cached aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+test	Install requirements	2026-11-16T10:46:23.5298086Z Using cached alembic-1.14.1-py3-none-any.whl (233 kB)
+test	Install requirements	2026-11-16T10:46:23.5307618Z Using cached anyio-4.14.2-py3-none-any.whl (125 kB)
+test	Install requirements	2026-11-16T10:46:23.5317089Z Using cached argon2_cffi-25.1.0-py3-none-any.whl (14 kB)
+test	Install requirements	2026-11-16T10:46:23.5326031Z Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+test	Install requirements	2026-11-16T10:46:23.5335479Z Using cached boto3-1.44.3-py3-none-any.whl (140 kB)
+test	Install requirements	2026-11-16T10:46:23.5345447Z Using cached botocore-1.44.3-py3-none-any.whl (16.4 MB)
+test	Install requirements	2026-11-16T10:46:23.5399888Z Using cached jmespath-1.1.0-py3-none-any.whl (20 kB)
+test	Install requirements	2026-11-16T10:46:23.5409029Z Using cached s3transfer-0.19.3-py3-none-any.whl (90 kB)
+test	Install requirements	2026-11-16T10:46:23.5418398Z Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+test	Install requirements	2026-11-16T10:46:23.5427949Z Using cached cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+test	Install requirements	2026-11-16T10:46:23.5437389Z Using cached dask-2026.8.0-py3-none-any.whl (1.5 MB)
+test	Install requirements	2026-11-16T10:46:23.5461073Z Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+test	Install requirements	2026-11-16T10:46:23.5461707Z Using cached debugpy-1.8.22-cp312-cp312-manylinux_2_34_x86_64.whl (4.0 MB)
+test	Install requirements	2026-11-16T10:46:23.5480528Z Using cached fastjsonschema-2.22.3-py3-none-any.whl (28 kB)
+test	Install requirements	2026-11-16T10:46:23.5490859Z Using cached frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+test	Install requirements	2026-11-16T10:46:23.5500311Z Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+test	Install requirements	2026-11-16T10:46:23.5510335Z Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+test	Install requirements	2026-11-16T10:46:23.5519387Z Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+test	Install requirements	2026-11-16T10:46:23.5528714Z Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+test	Install requirements	2026-11-16T10:46:23.5537826Z Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+test	Install requirements	2026-11-16T10:46:23.5546985Z Using cached ipywidgets-8.1.9-py3-none-any.whl (140 kB)
+test	Install requirements	2026-11-16T10:46:23.5556296Z Using cached jupyterlab_widgets-3.0.17-py3-none-any.whl (217 kB)
+test	Install requirements	2026-11-16T10:46:23.5566059Z Using cached widgetsnbextension-4.0.16-py3-none-any.whl (2.2 MB)
+test	Install requirements	2026-11-16T10:46:23.5581168Z Using cached comm-0.2.3-py3-none-any.whl (7.3 kB)
+test	Install requirements	2026-11-16T10:46:23.5590239Z Using cached jedi-0.20.1-py2.py3-none-any.whl (4.9 MB)
+test	Install requirements	2026-11-16T10:46:23.5613581Z Using cached parso-0.8.7-py2.py3-none-any.whl (107 kB)
+test	Install requirements	2026-11-16T10:46:23.5623111Z Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+test	Install requirements	2026-11-16T10:46:23.5632529Z Using cached joblib-1.6.0-py3-none-any.whl (306 kB)
+test	Install requirements	2026-11-16T10:46:23.5642406Z Using cached jsonpatch-1.47-py3-none-any.whl (25 kB)
+test	Install requirements	2026-11-16T10:46:23.5651646Z Using cached jsonpointer-3.12-py3-none-any.whl (10 kB)
+test	Install requirements	2026-11-16T10:46:23.5660439Z Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+test	Install requirements	2026-11-16T10:46:23.5670119Z Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+test	Install requirements	2026-11-16T10:46:23.5678976Z Using cached jupyter_core-5.9.1-py3-none-any.whl (29 kB)
+test	Install requirements	2026-11-16T10:46:23.5688092Z Using cached jupyter_events-0.12.1-py3-none-any.whl (19 kB)
+test	Install requirements	2026-11-16T10:46:23.5697119Z Using cached jupyter_server_terminals-0.5.4-py3-none-any.whl (13 kB)
+test	Install requirements	2026-11-16T10:46:23.5706302Z Using cached markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
+test	Install requirements	2026-11-16T10:46:23.5718405Z Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+test	Install requirements	2026-11-16T10:46:23.5741005Z Using cached markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+test	Install requirements	2026-11-16T10:46:23.5749152Z Using cached matplotlib_inline-0.2.2-py3-none-any.whl (9.5 kB)
+test	Install requirements	2026-11-16T10:46:23.5759214Z Using cached mistune-3.4.0-py3-none-any.whl (70 kB)
+test	Install requirements	2026-11-16T10:46:23.5780660Z Using cached nbconvert-7.17.2-py3-none-any.whl (262 kB)
+test	Install requirements	2026-11-16T10:46:23.5800725Z Using cached bleach-6.4.0-py3-none-any.whl (165 kB)
+test	Install requirements	2026-11-16T10:46:23.5814089Z Using cached nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+test	Install requirements	2026-11-16T10:46:23.5820639Z Using cached notebook-7.5.8-py3-none-any.whl (14.6 MB)
+test	Install requirements	2026-11-16T10:46:23.5852405Z Using cached jupyterlab-4.5.11-py3-none-any.whl (12.5 MB)
+test	Install requirements	2026-11-16T10:46:23.5899441Z Using cached jupyterlab_server-2.28.1-py3-none-any.whl (60 kB)
+test	Install requirements	2026-11-16T10:46:23.5912870Z Using cached notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+test	Install requirements	2026-11-16T10:46:23.5920809Z Using cached async_lru-2.4.0-py3-none-any.whl (10 kB)
+test	Install requirements	2026-11-16T10:46:23.5929277Z Using cached babel-2.18.0-py3-none-any.whl (10.2 MB)
+test	Install requirements	2026-11-16T10:46:23.5968423Z Using cached json5-0.17.3-py3-none-any.whl (34 kB)
+test	Install requirements	2026-11-16T10:46:23.5977791Z Using cached jupyter_lsp-2.3.1-py3-none-any.whl (77 kB)
+test	Install requirements	2026-11-16T10:46:23.5987168Z Using cached overrides-7.7.0-py3-none-any.whl (17 kB)
+test	Install requirements	2026-11-16T10:46:23.5996367Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+test	Install requirements	2026-11-16T10:46:23.6005908Z Using cached pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+test	Install requirements	2026-11-16T10:46:23.6014950Z Using cached partd-1.4.2-py3-none-any.whl (18 kB)
+test	Install requirements	2026-11-16T10:46:23.6024060Z Using cached pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+test	Install requirements	2026-11-16T10:46:23.6033374Z Using cached prometheus_client-0.26.0-py3-none-any.whl (64 kB)
+test	Install requirements	2026-11-16T10:46:23.6042741Z Using cached propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (250 kB)
+test	Install requirements	2026-11-16T10:46:23.6052407Z Using cached ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+test	Install requirements	2026-11-16T10:46:23.6061496Z Using cached pydantic-2.9.2-py3-none-any.whl (434 kB)
+test	Install requirements	2026-11-16T10:46:23.6071985Z Using cached pyairtable-3.5.0-py2.py3-none-any.whl (104 kB)
+test	Install requirements	2026-11-16T10:46:23.6081484Z Using cached pydantic_core-2.23.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+test	Install requirements	2026-11-16T10:46:23.6096557Z Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+test	Install requirements	2026-11-16T10:46:23.6105786Z Using cached pyasn1-0.6.5-py3-none-any.whl (84 kB)
+test	Install requirements	2026-11-16T10:46:23.6116344Z Using cached pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl (1.4 MB)
+test	Install requirements	2026-11-16T10:46:23.6129335Z Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+test	Install requirements	2026-11-16T10:46:23.6138635Z Using cached python_json_logger-4.2.0-py3-none-any.whl (14 kB)
+test	Install requirements	2026-11-16T10:46:23.6147681Z Using cached python_levenshtein-0.27.5-py3-none-any.whl (9.5 kB)
+test	Install requirements	2026-11-16T10:46:23.6156862Z Using cached levenshtein-0.27.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (157 kB)
+test	Install requirements	2026-11-16T10:46:23.6166313Z Using cached rapidfuzz-3.14.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+test	Install requirements	2026-11-16T10:46:23.6185170Z Using cached pytz-2026.6-py2.py3-none-any.whl (506 kB)
+test	Install requirements	2026-11-16T10:46:23.6195655Z Using cached pyzmq-27.3.0-cp312-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (855 kB)
+test	Install requirements	2026-11-16T10:46:23.6206942Z Using cached referencing-0.37.0-py3-none-any.whl (26 kB)
+test	Install requirements	2026-11-16T10:46:23.6216202Z Using cached rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+test	Install requirements	2026-11-16T10:46:23.6225266Z Using cached rfc3987_syntax-1.1.0-py3-none-any.whl (8.0 kB)
+test	Install requirements	2026-11-16T10:46:23.6234433Z Using cached lark-1.3.1-py3-none-any.whl (113 kB)
+test	Install requirements	2026-11-16T10:46:23.6244188Z Using cached rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (371 kB)
+test	Install requirements	2026-11-16T10:46:23.6260801Z Using cached scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.2 MB)
+test	Install requirements	2026-11-16T10:46:23.6367475Z Using cached send2trash-2.2.0-py3-none-any.whl (17 kB)
+test	Install requirements	2026-11-16T10:46:23.6376555Z Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+test	Install requirements	2026-11-16T10:46:23.6385756Z Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+test	Install requirements	2026-11-16T10:46:23.6395132Z Using cached sqlalchemy-2.1.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (4.7 MB)
+test	Install requirements	2026-11-16T10:46:23.6418307Z Using cached threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+test	Install requirements	2026-11-16T10:46:23.6427362Z Using cached tinycss2-1.5.1-py3-none-any.whl (28 kB)
+test	Install requirements	2026-11-16T10:46:23.6436867Z Using cached toolz-1.2.0-py3-none-any.whl (60 kB)
+test	Install requirements	2026-11-16T10:46:23.6445967Z Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+test	Install requirements	2026-11-16T10:46:23.6455302Z Using cached traitlets-5.16.1-py3-none-any.whl (86 kB)
+test	Install requirements	2026-11-16T10:46:23.6464576Z Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+test	Install requirements	2026-11-16T10:46:23.6474671Z Using cached tzlocal-5.4.5-py3-none-any.whl (18 kB)
+test	Install requirements	2026-11-16T10:46:23.6484010Z Using cached wcwidth-0.9.4-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (785 kB)
+test	Install requirements	2026-11-16T10:46:23.6494974Z Using cached webcolors-25.10.0-py3-none-any.whl (14 kB)
+test	Install requirements	2026-11-16T10:46:23.6504230Z Using cached webencodings-0.6.1-py3-none-any.whl (8.7 kB)
+test	Install requirements	2026-11-16T10:46:23.6513570Z Using cached websocket_client-1.9.2-py3-none-any.whl (95 kB)
+test	Install requirements	2026-11-16T10:46:23.6523115Z Using cached argon2_cffi_bindings-26.2.0-cp310-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (26 kB)
+test	Install requirements	2026-11-16T10:46:23.6532081Z Using cached backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+test	Install requirements	2026-11-16T10:46:23.6541200Z Using cached beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+test	Install requirements	2026-11-16T10:46:23.6550482Z Using cached soupsieve-4.1.1-py3-none-any.whl (55 kB)
+test	Install requirements	2026-11-16T10:46:23.6559337Z Using cached cachetools-8.0.0-py3-none-any.whl (18 kB)
+test	Install requirements	2026-11-16T10:46:23.6568245Z Using cached decorator-5.3.1-py3-none-any.whl (10 kB)
+test	Install requirements	2026-11-16T10:46:23.6577094Z Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+test	Install requirements	2026-11-16T10:46:23.6586334Z Using cached deprecated-3.0.1-py3-none-any.whl (22 kB)
+test	Install requirements	2026-11-16T10:46:23.6595589Z Using cached wrapt-2.5.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (250 kB)
+test	Install requirements	2026-11-16T10:46:23.6605205Z Using cached entrypoints-0.4.2-py3-none-any.whl (5.3 kB)
+test	Install requirements	2026-11-16T10:46:23.6614150Z Using cached fqdn-1.6.0-py3-none-any.whl (12 kB)
+test	Install requirements	2026-11-16T10:46:23.6623301Z Using cached isoduration-20.11.0-py3-none-any.whl (11 kB)
+test	Install requirements	2026-11-16T10:46:23.6632086Z Using cached arrow-1.4.0-py3-none-any.whl (68 kB)
+test	Install requirements	2026-11-16T10:46:23.6641248Z Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+test	Install requirements	2026-11-16T10:46:23.6650228Z Using cached locket-1.0.0-py2.py3-none-any.whl (4.4 kB)
+test	Install requirements	2026-11-16T10:46:23.6658866Z Using cached mako-1.4.3-py3-none-any.whl (80 kB)
+test	Install requirements	2026-11-16T10:46:23.6668187Z Using cached memory_profiler-0.61.0-py3-none-any.whl (31 kB)
+test	Install requirements	2026-11-16T10:46:23.6677140Z Using cached pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+test	Install requirements	2026-11-16T10:46:23.6686212Z Using cached pycparser-3.12-py3-none-any.whl (62 kB)
+test	Install requirements	2026-11-16T10:46:23.6695352Z Using cached rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+test	Install requirements	2026-11-16T10:46:23.6709287Z Using cached simplejson-4.3.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (213 kB)
+test	Install requirements	2026-11-16T10:46:23.6718465Z Using cached sqlglot-30.31.0-py3-none-any.whl (811 kB)
+test	Install requirements	2026-11-16T10:46:23.6730203Z Using cached sqlglotc-30.31.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (18.4 MB)
+test	Install requirements	2026-11-16T10:46:23.6794048Z Using cached sqlglotrs-0.13.0-py3-none-any.whl (1.4 kB)
+test	Install requirements	2026-11-16T10:46:23.6802948Z Using cached stack_data-0.6.3-py3-none-any.whl (24 kB)
+test	Install requirements	2026-11-16T10:46:23.6812264Z Using cached asttokens-3.0.2-py3-none-any.whl (28 kB)
+test	Install requirements	2026-11-16T10:46:23.6821404Z Using cached executing-2.3.0-py3-none-any.whl (29 kB)
+test	Install requirements	2026-11-16T10:46:23.6830428Z Using cached pure_eval-0.2.4-py3-none-any.whl (11 kB)
+test	Install requirements	2026-11-16T10:46:23.6839203Z Using cached tomlkit-0.15.2-py3-none-any.whl (52 kB)
+test	Install requirements	2026-11-16T10:46:23.6848493Z Using cached uri_template-1.3.0-py3-none-any.whl (11 kB)
+test	Install requirements	2026-11-16T10:46:24.7465718Z Installing collected packages: thefuzz, text-unidecode, sortedcontainers, pytz, pure-eval, ptyprocess, pickleshare, makefun, backcall, asn1crypto, wrapt, widgetsnbextension, websocket-client, webencodings, webcolors, wcwidth, watchdog, urllib3, uri-template, tzlocal, tzdata, typing_extensions, traitlets, tqdm, tornado, toolz, tomlkit, threadpoolctl, sqlglotrs, sqlglot, soupsieve, smmap, six, simplejson, shellingham, setuptools, send2trash, ruamel.yaml, rpds-py, rfc3986-validator, redis, rapidfuzz, pyzmq, pyyaml, python-json-logger, pyparsing, PyJWT, pygments, pycparser, pyasn1, pyarrow, psutil, protobuf, propcache, prometheus-client, polars, pluggy, platformdirs, Pillow, pika, pexpect, parso, pandocfilters, packaging, overrides, numpy, newrelic, nest-asyncio, multidict, mistune, mdurl, MarkupSafe, locket, lark, jupyterlab_widgets, jupyterlab-pygments, jsonpointer, json5, jmespath, itsdangerous, iniconfig, inflection, idna, h11, fsspec, frozenlist, fqdn, filelock, fastjsonschema, executing, entrypoints, defusedxml, decorator, debugpy, comm, colorama, cloudpickle, click, charset-normalizer, certifi, cachetools, bcrypt, babel, attrs, async-lru, asttokens, annotated-types, aiohappyeyeballs, aiofiles, yarl, Werkzeug, typer, tinycss2, terminado, stack-data, sqlglotc, sqlalchemy, sentry-sdk, scipy, rfc3987-syntax, rfc3339-validator, requests, referencing, python-dateutil, pytest, pydantic-core, prompt-toolkit, partd, memory_profiler, matplotlib-inline, marshmallow, markdown-it-py, Mako, Levenshtein, ldap3, jupyter-core, jsonpatch, joblib, Jinja2, jedi, httpcore, gitdb, deprecated, cffi, bleach, beautifulsoup4, anyio, aiosignal, scikit-learn, rich, python-levenshtein, pynacl, pydantic, pandas, jupyter-server-terminals, jupyter_client, jsonschema-specifications, ipython, httpx, GitPython, freezegun, Faker, datadog, dask, cryptography, cron-converter, botocore, arrow, argon2-cffi-bindings, alembic, aiohttp, s3transfer, pyOpenSSL, pyairtable, paramiko, jsonschema, isoduration, ipywidgets, ipykernel, argon2-cffi, PyGithub, nbformat, boto3, altair, snowflake-connector-python, nbclient, jupyter-events, nbconvert, jupyter-server, notebook-shim, jupyterlab-server, jupyter-lsp, jupyterlab, notebook, great-expectations, mage-ai
+test	Install requirements	2026-11-16T10:47:05.1839156Z 
+test	Install requirements	2026-11-16T10:47:05.1946376Z Successfully installed Faker-4.14.0 GitPython-3.1.62 Jinja2-3.1.6 Levenshtein-0.27.5 Mako-1.4.3 MarkupSafe-3.0.4 Pillow-10.3.0 PyGithub-1.59.0 PyJWT-2.6.0 Werkzeug-3.0.3 aiofiles-22.1.0 aiohappyeyeballs-2.7.1 aiohttp-3.10.0 aiosignal-1.4.0 alembic-1.14.1 altair-4.2.2 annotated-types-0.8.0 anyio-4.14.2 argon2-cffi-25.1.0 argon2-cffi-bindings-26.2.0 arrow-1.4.0 asn1crypto-1.5.1 asttokens-3.0.2 async-lru-2.4.0 attrs-26.1.0 babel-2.18.0 backcall-0.2.0 bcrypt-4.0.1 beautifulsoup4-4.15.0 bleach-6.4.0 boto3-1.44.3 botocore-1.44.3 cachetools-8.0.0 certifi-2026.10.23 cffi-2.1.1 charset-normalizer-3.5.2 click-8.1.8 cloudpickle-3.1.2 colorama-0.4.6 comm-0.2.3 cron-converter-1.2.1 cryptography-42.0.4 dask-2026.8.0 datadog-0.44.0 debugpy-1.8.22 decorator-5.3.1 defusedxml-0.7.1 deprecated-3.0.1 entrypoints-0.4.2 executing-2.3.0 fastjsonschema-2.22.3 filelock-3.32.7 fqdn-1.6.0 freezegun-1.2.2 frozenlist-1.8.0 fsspec-2026.9.0 gitdb-4.0.12 great-expectations-0.18.12 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 inflection-0.5.1 iniconfig-2.3.1 ipykernel-6.15.0 ipython-8.10.0 ipywidgets-8.1.9 isoduration-20.11.0 itsdangerous-1.1.0 jedi-0.20.1 jmespath-1.1.0 joblib-1.6.0 json5-0.17.3 jsonpatch-1.47 jsonpointer-3.12 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 jupyter-core-5.9.1 jupyter-events-0.12.1 jupyter-lsp-2.3.1 jupyter-server-2.14.1 jupyter-server-terminals-0.5.4 jupyter_client-7.4.4 jupyterlab-4.5.11 jupyterlab-pygments-0.3.0 jupyterlab-server-2.28.1 jupyterlab_widgets-3.0.17 lark-1.3.1 ldap3-2.9.1 locket-1.0.0 mage-ai-0.9.80 makefun-1.16.0 markdown-it-py-4.3.0 marshmallow-3.26.2 matplotlib-inline-0.2.2 mdurl-0.1.2 memory_profiler-0.61.0 mistune-3.4.0 multidict-6.9.1 nbclient-0.11.0 nbconvert-7.17.2 nbformat-5.11.1 nest-asyncio-1.6.0 newrelic-8.8.0 notebook-7.5.8 notebook-shim-0.2.4 numpy-1.26.4 overrides-7.7.0 packaging-26.3 pandas-2.3.3 pandocfilters-1.5.1 paramiko-3.5.1 parso-0.8.7 partd-1.4.2 pexpect-4.9.0 pickleshare-0.7.5 pika-1.4.4 platformdirs-4.14.5 pluggy-1.7.0 polars-1.30.0 prometheus-client-0.26.0 prompt-toolkit-3.0.53 propcache-0.5.4 protobuf-6.33.6 psutil-5.9.8 ptyprocess-0.7.0 pure-eval-0.2.4 pyOpenSSL-25.1.0 pyairtable-3.5.0 pyarrow-25.0.1 pyasn1-0.6.5 pycparser-3.12 pydantic-2.9.2 pydantic-core-2.23.4 pygments-2.21.0 pynacl-1.6.2 pyparsing-3.3.3 pytest-9.2.0 python-dateutil-2.8.2 python-json-logger-4.2.0 python-levenshtein-0.27.5 pytz-2026.6 pyyaml-6.0.3 pyzmq-27.3.0 rapidfuzz-3.14.6 redis-5.0.8 referencing-0.37.0 requests-2.31.0 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 rfc3987-syntax-1.1.0 rich-13.9.4 rpds-py-2026.9.1 ruamel.yaml-0.17.17 s3transfer-0.19.3 scikit-learn-1.7.2 scipy-1.17.1 send2trash-2.2.0 sentry-sdk-2.75.0 setuptools-70.0.0 shellingham-1.5.4 simplejson-4.3.0 six-1.17.0 smmap-5.0.3 snowflake-connector-python-4.0.0 sortedcontainers-2.4.0 soupsieve-4.1.1 sqlalchemy-2.1.8 sqlglot-30.31.0 sqlglotc-30.31.0 sqlglotrs-0.13.0 stack-data-0.6.3 terminado-0.17.1 text-unidecode-1.3 thefuzz-0.19.0 threadpoolctl-3.8.0 tinycss2-1.5.1 tomlkit-0.15.2 toolz-1.2.0 tornado-6.4.2 tqdm-4.70.1 traitlets-5.16.1 typer-0.9.0 typing_extensions-4.11.0 tzdata-2026.6 tzlocal-5.4.5 uri-template-1.3.0 urllib3-2.8.0 watchdog-4.0.0 wcwidth-0.9.4 webcolors-25.10.0 webencodings-0.6.1 websocket-client-1.9.2 widgetsnbextension-4.0.16 wrapt-2.5.2 yarl-1.25.1
+test	Run pytest	﻿2026-11-16T10:47:06.1884623Z ##[group]Run python -m pytest -q
+test	Run pytest	2026-11-16T10:47:06.1884915Z ^[[36;1mpython -m pytest -q^[[0m
+test	Run pytest	2026-11-16T10:47:06.1931435Z shell: /usr/bin/bash -e {0}
+test	Run pytest	2026-11-16T10:47:06.1931648Z env:
+test	Run pytest	2026-11-16T10:47:06.1931871Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:47:06.1932231Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+test	Run pytest	2026-11-16T10:47:06.1932575Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:47:06.1932884Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:47:06.1933181Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:47:06.1933489Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+test	Run pytest	2026-11-16T10:47:06.1933748Z ##[endgroup]
+test	Run pytest	2026-11-16T10:47:08.7161378Z ........                                                                 [100%]
+test	Run pytest	2026-11-16T10:47:08.7162298Z =============================== warnings summary ===============================
+test	Run pytest	2026-11-16T10:47:08.7163364Z ../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/dateutil/tz/tz.py:37
+test	Run pytest	2026-11-16T10:47:08.7165483Z   /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/dateutil/tz/tz.py:37: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+test	Run pytest	2026-11-16T10:47:08.7167244Z     EPOCH = datetime.datetime.utcfromtimestamp(0)
+test	Run pytest	2026-11-16T10:47:08.7167662Z 
+test	Run pytest	2026-11-16T10:47:08.7168155Z ../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/pytest_plugin.py:14
+test	Run pytest	2026-11-16T10:47:08.7169428Z   /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+test	Run pytest	2026-11-16T10:47:08.7170655Z   The CallSpec2 alias will be removed in pytest 10.
+test	Run pytest	2026-11-16T10:47:08.7171173Z   Update imports to use CallSpec instead.
+test	Run pytest	2026-11-16T10:47:08.7171828Z   See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+test	Run pytest	2026-11-16T10:47:08.7172451Z     from _pytest.python import CallSpec2
+test	Run pytest	2026-11-16T10:47:08.7172807Z 
+test	Run pytest	2026-11-16T10:47:08.7173173Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+test	Run pytest	2026-11-16T10:47:08.7173779Z 8 passed, 2 warnings in 1.54s
+test	Post Run actions/setup-python@v5	﻿2026-11-16T10:47:08.8982687Z Post job cleanup.
+test	Post Run actions/setup-python@v5	2026-11-16T10:47:09.0018629Z Cache hit occurred on the primary key setup-python-Linux-x64-26.04-Ubuntu-python-3.12.16-pip-90be02dc11a4096e737d7feb2551fd4cbe97a86fc71c217be71d2e5b261c2219, not saving cache.
+test	Post Run actions/setup-python@v5	2026-11-16T10:47:09.0020727Z (node:2167) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Post Run actions/setup-python@v5	2026-11-16T10:47:09.0024352Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Post Run actions/checkout@v4	﻿2026-11-16T10:47:09.0175410Z Post job cleanup.
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1023714Z [command]/usr/bin/git version
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1100558Z git version 2.56.1
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1142878Z Temporarily overriding HOME='/home/runner/work/_temp/8df248f9-f366-4956-bf99-8dbcdafafec8' before making global git config changes
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1144147Z Adding repository directory to the temporary git global config as a safe directory
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1152388Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/freshcart-pipelines/freshcart-pipelines
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1211512Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1284407Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1801314Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1862704Z http.https://github.com/.extraheader
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1879764Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.1928906Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.2388361Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Post Run actions/checkout@v4	2026-11-16T10:47:09.2424872Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Complete job	﻿2026-11-16T10:47:09.3012894Z Cleaning up orphan processes
+test	Complete job	2026-11-16T10:47:09.3311022Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,116 @@
+Connected to own trial: ('CHAITANYA23BCS064', 'ACCOUNTADMIN')
+run_id: 20261116_110227_215514
+1. EXTRACT: sample data -> raw files
+   web: 6 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110227_215514.json.gz
+   mobile: 2 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/mobile/mobile__20261116_110227_215514.json.gz
+   crm: 4 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/crm/crm__20261116_110227_215514.json.gz
+   fx: 1 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/fx/fx__20261116_110227_215514.json.gz
+2. LOAD: raw files -> bronze tables
+   6 rows -> bronze.orders_raw
+   2 rows -> bronze.orders_raw
+   4 rows -> bronze.customers_raw
+   1 rows -> bronze.fx_raw
+3. TRANSFORM: bronze -> silver -> gold
+   new pincodes to look up: ['600041', '560034', '400050']
+   pincode: 3 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/pincode/pincode__20261116_110227_215514.json.gz
+   3 rows -> bronze.pincode_raw
+4. CHECK
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 25%
+GOLD: 4 orders, revenue ₹7785.00, 126 loyalty points
+B1-baseline.json {"bronze_rows": 8, "silver_clean_rows": 6, "quarantine_rows": 2, "dedup_rows": 4, "gold": {"orders": 4, "revenue_inr": "7785.00", "loyalty_points": 126}, "rejected_share": "0.250000"}
+B2-raw-records.json [["web", "{\n  \"amount\": \"1,250.00\",\n  \"currency\": \"INR\",\n  \"cust_email\": \" Priya.R@Gmail.com \",\n  \"cust_name\": \"priya r\",\n  \"order_date\": \"2026-09-01\",\n  \"order_id\": \"ORD-1001\",\n  \"pincode\": \"600041\",\n  \"updated_at\": \"2026-09-01 10:02:00\"\n}"], ["web", "{\n  \"amount\": null,\n  \"currency\": \"INR\",\n  \"cust_email\": \"meera@outlook.com\",\n  \"cust_name\": \"MEERA S\",\n  \"order_date\": \"2026-09-02\",\n  \"order_id\": \"ORD-1003\",\n  \"pincode\": \"400050\",\n  \"updated_at\": \"2026-09-02 09:10:00\"\n}"], ["web", "{\n  \"amount\": \"\u20b9 899\",\n  \"currency\": \"inr\",\n  \"cust_email\": \"priya.r@gmail.com\",\n  \"cust_name\": \"Priya R.\",\n  \"order_date\": \"2026-09-03\",\n  \"order_id\": \"ORD-1005\",\n  \"pincode\": \"600041\",\n  \"updated_at\": \"2026-09-03 16:45:00\"\n}"], ["mobile", "{\n  \"customer\": {\n    \"email\": \"Meera@Outlook.com\",\n    \"name\": \"Meera S\"\n  },\n  \"deliveryPin\": \"400050\",\n  \"orderDate\": \"02/09/2026\",\n  \"orderId\": \"ORD-1003\",\n  \"total\": {\n    \"currency\": \"INR\",\n    \"value\": \"2,100.00\"\n  },\n  \"updatedAt\": \"2026-09-02T18:40:00\"\n}"]]
+B2-gold-records.json [["ORD-1001", "2026-09-01", "Silver", "1250.00", "INR", "1.0000", "1250.00", 12], ["ORD-1002", "2026-09-01", "Silver", "42.50", "USD", "83.2000", "3536.00", 35], ["ORD-1003", "2026-09-02", "Platinum", "2100.00", "INR", "1.0000", "2100.00", 63], ["ORD-1005", "2026-09-03", "Gold", "899.00", "INR", "1.0000", "899.00", 16]]
+run_id: 20261116_110244_946595
+1. EXTRACT: sample data -> raw files
+   web: 6 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110244_946595.json.gz
+   mobile: 2 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/mobile/mobile__20261116_110244_946595.json.gz
+   crm: 4 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/crm/crm__20261116_110244_946595.json.gz
+   fx: 1 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/fx/fx__20261116_110244_946595.json.gz
+2. LOAD: raw files -> bronze tables
+   6 rows -> bronze.orders_raw
+   2 rows -> bronze.orders_raw
+   4 rows -> bronze.customers_raw
+   1 rows -> bronze.fx_raw
+3. TRANSFORM: bronze -> silver -> gold
+   new pincodes to look up: []
+4. CHECK
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 25%
+GOLD: 4 orders, revenue ₹7785.00, 126 loyalty points
+B3-validation.json {"checked_reasons_before": ["bad_email", "bad_pincode"], "checked_reasons_after": ["bad_email", "bad_pincode", "unsupported_currency"], "stored_quarantine_reasons": ["bad_email", "bad_pincode"], "quarantine_rows": 2, "gold": {"orders": 4, "revenue_inr": "7785.00", "loyalty_points": 126}}
+run_id: 20261116_110302_201358
+1. EXTRACT: sample data -> raw files
+   web: 6 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110302_201358.json.gz
+   mobile: 2 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/mobile/mobile__20261116_110302_201358.json.gz
+   crm: 5 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/crm/crm__20261116_110302_201358.json.gz
+   fx: 1 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/fx/fx__20261116_110302_201358.json.gz
+2. LOAD: raw files -> bronze tables
+   6 rows -> bronze.orders_raw
+   2 rows -> bronze.orders_raw
+   5 rows -> bronze.customers_raw
+   1 rows -> bronze.fx_raw
+3. TRANSFORM: bronze -> silver -> gold
+   new pincodes to look up: []
+4. CHECK
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 25%
+GOLD: 4 orders, revenue ₹7785.00, 161 loyalty points
+B4-history.json {"prediction": {"recorded_at_utc": "2026-11-16T10:37:36.381980+00:00", "stage": "before Snowflake change experiment", "CUST-02 rows": 2, "ORD-1002 tier": "Gold", "ORD-1002 points": 70, "gold total points": 161, "published_at changed rows": 1, "arithmetic": "42.50 USD * 83.20 INR/USD = 3536 INR; floor(3536/100)*2=70; 126-35+70=161"}, "actual": {"CUST-02 rows": 2, "ORD-1002 tier": "Gold", "ORD-1002 points": 70, "gold total points": 161, "published_at changed rows": 1}, "customer_history": [["CUST-02", "Silver", "2024-01-15", "2026-08-14", false], ["CUST-02", "Gold", "2026-08-15", "9999-12-31", true]]}
+run_id: 20261116_110325_678214
+1. EXTRACT: sample data -> raw files
+   web: 6 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110325_678214.json.gz
+   mobile: 2 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/mobile/mobile__20261116_110325_678214.json.gz
+   crm: 5 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/crm/crm__20261116_110325_678214.json.gz
+   fx: 1 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/fx/fx__20261116_110325_678214.json.gz
+2. LOAD: raw files -> bronze tables
+   6 rows -> bronze.orders_raw
+   2 rows -> bronze.orders_raw
+   5 rows -> bronze.customers_raw
+   1 rows -> bronze.fx_raw
+3. TRANSFORM: bronze -> silver -> gold
+   new pincodes to look up: []
+4. CHECK
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 25%
+GOLD: 4 orders, revenue ₹7785.00, 161 loyalty points
+B4-idempotency.json {"bronze_growth": 8, "gold": {"orders": 4, "revenue_inr": "7785.00", "loyalty_points": 161}, "published_at_changed": 0}
+   web: 1 records -> /Users/chaitanyakumar/Desktop/Data Engineering Assignment - 23BCS064 - Review/freshcart-pipelines/.local/landing/web/web__20261116_110346_805736.json.gz
+   1 rows -> bronze.orders_raw
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   1   PROBLEM
+   orders dated in the future             1   PROBLEM
+   orders with no city                    0   OK
+   share of rows rejected                 24%
+B5-failed-check.json {"mock_order": {"order_id": "ORD-QC-FUTURE", "cust_email": " Priya.R@Gmail.com ", "cust_name": "priya r", "order_date": "2026-11-17", "amount": "1,250.00", "currency": "INR", "pincode": "600041", "updated_at": "2026-11-17 12:00:00"}, "checks": {"rows gained or lost while enriching": 0, "duplicate orders in gold": 0, "orders with no customer match": 0, "orders with an amount but no FX rate": 1, "orders dated in the future": 1, "orders with no city": 0}}
+   rows gained or lost while enriching    0   OK
+   duplicate orders in gold               0   OK
+   orders with no customer match          0   OK
+   orders with an amount but no FX rate   0   OK
+   orders dated in the future             0   OK
+   orders with no city                    0   OK
+   share of rows rejected                 25%
+B5-recovered-check.json {"checks": {"rows gained or lost while enriching": 0, "duplicate orders in gold": 0, "orders with no customer match": 0, "orders with an amount but no FX rate": 0, "orders dated in the future": 0, "orders with no city": 0}, "gold": {"orders": 4, "revenue_inr": "7785.00", "loyalty_points": 161}}
+

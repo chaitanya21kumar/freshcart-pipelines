@@ -1,0 +1,20 @@
+{
+  "mock_order": {
+    "order_id": "ORD-QC-FUTURE",
+    "cust_email": " Priya.R@Gmail.com ",
+    "cust_name": "priya r",
+    "order_date": "2026-11-17",
+    "amount": "1,250.00",
+    "currency": "INR",
+    "pincode": "600041",
+    "updated_at": "2026-11-17 12:00:00"
+  },
+  "checks": {
+    "rows gained or lost while enriching": 0,
+    "duplicate orders in gold": 0,
+    "orders with no customer match": 0,
+    "orders with an amount but no FX rate": 1,
+    "orders dated in the future": 1,
+    "orders with no city": 0
+  }
+}

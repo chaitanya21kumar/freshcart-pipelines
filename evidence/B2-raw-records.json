@@ -1,0 +1,18 @@
+[
+  [
+    "web",
+    "{\n  \"amount\": \"1,250.00\",\n  \"currency\": \"INR\",\n  \"cust_email\": \" Priya.R@Gmail.com \",\n  \"cust_name\": \"priya r\",\n  \"order_date\": \"2026-09-01\",\n  \"order_id\": \"ORD-1001\",\n  \"pincode\": \"600041\",\n  \"updated_at\": \"2026-09-01 10:02:00\"\n}"
+  ],
+  [
+    "web",
+    "{\n  \"amount\": null,\n  \"currency\": \"INR\",\n  \"cust_email\": \"meera@outlook.com\",\n  \"cust_name\": \"MEERA S\",\n  \"order_date\": \"2026-09-02\",\n  \"order_id\": \"ORD-1003\",\n  \"pincode\": \"400050\",\n  \"updated_at\": \"2026-09-02 09:10:00\"\n}"
+  ],
+  [
+    "web",
+    "{\n  \"amount\": \"\u20b9 899\",\n  \"currency\": \"inr\",\n  \"cust_email\": \"priya.r@gmail.com\",\n  \"cust_name\": \"Priya R.\",\n  \"order_date\": \"2026-09-03\",\n  \"order_id\": \"ORD-1005\",\n  \"pincode\": \"600041\",\n  \"updated_at\": \"2026-09-03 16:45:00\"\n}"
+  ],
+  [
+    "mobile",
+    "{\n  \"customer\": {\n    \"email\": \"Meera@Outlook.com\",\n    \"name\": \"Meera S\"\n  },\n  \"deliveryPin\": \"400050\",\n  \"orderDate\": \"02/09/2026\",\n  \"orderId\": \"ORD-1003\",\n  \"total\": {\n    \"currency\": \"INR\",\n    \"value\": \"2,100.00\"\n  },\n  \"updatedAt\": \"2026-09-02T18:40:00\"\n}"
+  ]
+]

@@ -1,0 +1,45 @@
+test	Run pytest	﻿2026-11-16T10:44:47.7678118Z ##[group]Run python -m pytest -q
+test	Run pytest	2026-11-16T10:44:47.7678399Z ^[[36;1mpython -m pytest -q^[[0m
+test	Run pytest	2026-11-16T10:44:47.7740232Z shell: /usr/bin/bash -e {0}
+test	Run pytest	2026-11-16T10:44:47.7740581Z env:
+test	Run pytest	2026-11-16T10:44:47.7740927Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:44:47.7741500Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+test	Run pytest	2026-11-16T10:44:47.7742071Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:44:47.7742550Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:44:47.7743029Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run pytest	2026-11-16T10:44:47.7743568Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+test	Run pytest	2026-11-16T10:44:47.7743973Z ##[endgroup]
+test	Run pytest	2026-11-16T10:44:49.9294941Z ..F.....                                                                 [100%]
+test	Run pytest	2026-11-16T10:44:49.9295886Z =================================== FAILURES ===================================
+test	Run pytest	2026-11-16T10:44:49.9296962Z _____________________________ test_split_is_80_20 ______________________________
+test	Run pytest	2026-11-16T10:44:49.9297542Z 
+test	Run pytest	2026-11-16T10:44:49.9297799Z     def test_split_is_80_20():
+test	Run pytest	2026-11-16T10:44:49.9298241Z         df = load_iris(as_frame=True).frame
+test	Run pytest	2026-11-16T10:44:49.9298711Z         out = transform(df)
+test	Run pytest	2026-11-16T10:44:49.9299151Z >       assert (out['split'] == 'train').sum() == 120
+test	Run pytest	2026-11-16T10:44:49.9299644Z E       AssertionError: assert 105 == 120
+test	Run pytest	2026-11-16T10:44:49.9300106Z E        +  where 105 = sum()
+test	Run pytest	2026-11-16T10:44:49.9301073Z E        +    where sum = 81     train\n133    train\n137    train\n75     train\n109    train\n       ...  \n142     test\n85      test\n86      test\n16      test\n10      test\nName: split, Length: 150, dtype: object == 'train'.sum
+test	Run pytest	2026-11-16T10:44:49.9302036Z 
+test	Run pytest	2026-11-16T10:44:49.9302302Z tests/test_prepare_data.py:7: AssertionError
+test	Run pytest	2026-11-16T10:44:49.9302900Z ----------------------------- Captured stdout call -----------------------------
+test	Run pytest	2026-11-16T10:44:49.9303482Z Train rows: 105 | Test rows: 45
+test	Run pytest	2026-11-16T10:44:49.9303964Z =============================== warnings summary ===============================
+test	Run pytest	2026-11-16T10:44:49.9304708Z ../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/dateutil/tz/tz.py:37
+test	Run pytest	2026-11-16T10:44:49.9306692Z   /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/dateutil/tz/tz.py:37: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+test	Run pytest	2026-11-16T10:44:49.9309000Z     EPOCH = datetime.datetime.utcfromtimestamp(0)
+test	Run pytest	2026-11-16T10:44:49.9309392Z 
+test	Run pytest	2026-11-16T10:44:49.9309851Z ../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/pytest_plugin.py:14
+test	Run pytest	2026-11-16T10:44:49.9311030Z   /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+test	Run pytest	2026-11-16T10:44:49.9312057Z   The CallSpec2 alias will be removed in pytest 10.
+test	Run pytest	2026-11-16T10:44:49.9312566Z   Update imports to use CallSpec instead.
+test	Run pytest	2026-11-16T10:44:49.9313171Z   See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+test	Run pytest	2026-11-16T10:44:49.9313774Z     from _pytest.python import CallSpec2
+test	Run pytest	2026-11-16T10:44:49.9314124Z 
+test	Run pytest	2026-11-16T10:44:49.9314480Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+test	Run pytest	2026-11-16T10:44:49.9315116Z =========================== short test summary info ============================
+test	Run pytest	2026-11-16T10:44:49.9316022Z FAILED tests/test_prepare_data.py::test_split_is_80_20 - AssertionError: assert 105 == 120
+test	Run pytest	2026-11-16T10:44:49.9316837Z  +  where 105 = sum()
+test	Run pytest	2026-11-16T10:44:49.9317729Z  +    where sum = 81     train\n133    train\n137    train\n75     train\n109    train\n       ...  \n142     test\n85      test\n86      test\n16      test\n10      test\nName: split, Length: 150, dtype: object == 'train'.sum
+test	Run pytest	2026-11-16T10:44:49.9319037Z 1 failed, 7 passed, 2 warnings in 1.31s
+test	Run pytest	2026-11-16T10:44:50.1550643Z ##[error]Process completed with exit code 1.
