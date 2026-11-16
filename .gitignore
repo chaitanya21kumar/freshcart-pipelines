@@ -13,3 +13,4 @@ variables/
 *.log
 *.json.gz
 .DS_Store
+iris_project/.ssh_tunnel/

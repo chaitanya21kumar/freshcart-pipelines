@@ -1,3 +1,4 @@
 project_type: standalone
 variables_dir: ~/.mage_data
-remote_variables_dir: null
+remote_variables_dir:
+project_uuid: 2b9a6282d9ff44ccbd5b4ec25f46941a
